@@ -8,7 +8,7 @@ $(document).ready(function(){
   });
           
           $(window).scroll(function() {
-if ($(this).scrollTop() > 150){  
+if ($(this).scrollTop() > 120){  
     $('.container').addClass("sticky");
   }
   else{
@@ -17,7 +17,7 @@ if ($(this).scrollTop() > 150){
 });
 
                     $(window).scroll(function() {
-if ($(this).scrollTop() > 150){  
+if ($(this).scrollTop() > 120){  
     $('#ul').addClass("sticky");
   }
   else{
@@ -26,7 +26,7 @@ if ($(this).scrollTop() > 150){
 });
 
                     $(window).scroll(function() {
-if ($(this).scrollTop() > 150){  
+if ($(this).scrollTop() > 120){  
     $('#logo1').addClass("sticky");
   }
   else{
@@ -35,7 +35,7 @@ if ($(this).scrollTop() > 150){
 });
 
                                         $(window).scroll(function() {
-if ($(this).scrollTop() > 150){  
+if ($(this).scrollTop() > 120){  
     $('#mainmenu').addClass("sticky");
   }
   else{

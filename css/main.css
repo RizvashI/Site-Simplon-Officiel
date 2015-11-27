@@ -116,6 +116,12 @@ nav .container{
     height: 70px;
     opacity: 1;
 }
+.navbar-collapse {
+    background-color: #34495E;
+}
+.navbar-collapse a{
+    text-align: center;
+}
 
 nav .navbar-header {
    font-family: 'Josefin sans', serif;

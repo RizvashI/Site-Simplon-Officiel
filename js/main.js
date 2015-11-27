@@ -43,3 +43,12 @@ if ($(this).scrollTop() > 120){
   }
 });
 
+                                        $(window).scroll(function() {
+if ($(this).scrollTop() > 120){  
+    $('.navbar-toggle').addClass("sticky");
+  }
+  else{
+    $('.navbar-toggle').removeClass("sticky");
+  }
+});
+

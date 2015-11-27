@@ -230,7 +230,9 @@ header {
     border: 0px solid;
     background-color: white;
 }
-
+#contentrow{
+    margin-right: 0;
+}
 /* ==========================================  Footer ========================================== */
 
 footer{

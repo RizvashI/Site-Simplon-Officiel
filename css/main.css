@@ -284,6 +284,9 @@ width: 100%;
 height: 250px;
 margin-top: 5%
 }
+h1{
+    text-align: center;
+}
 button {
 width: 200px;
 height: 60px;
@@ -304,20 +307,18 @@ margin-left: 8%;
 font-family: 'Josefin sans', serif;
 font-size: 16px;
 font-weight: bold;
-margin-top: 5%;
+margin-top: 3%;
 margin-bottom: 5%;
-margin-left: 5%;
-margin-right: 3%;
-background-color: #F5F5F5 ;
+margin-right: 4%;
 line-height: 35px;
 text-indent: 30px;
 }
-#general img{
+#simplong img{
     width: 35%;
-    margin-left: 5%;
+    /*margin-left: 5%;*/
 }
 #generalvideo {
-margin-top: 7%;
+margin-top: 3%;
 margin-bottom: 2%;
 }
 
@@ -452,12 +453,13 @@ footer .row {
 
 #section_principale{
   margin-top: 90px;
+  padding-bottom: 80px;
 }
 
 /* titres */
 
 #section_principale h1{
-  font-size: 1.7em;
+  font-size: 1.5em;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -465,25 +467,36 @@ footer .row {
 /* paragraphes */
 
 #section_principale p{
-  font-size: 1.2em;
+  font-size: 1em;
   text-indent: 20px;
   text-align: justify;
-  margin-right: 15px;
-  margin-left: 15px;
+  line-height: 25px;
 }
 
 /* 3 paragraphes conditionnels */
 
-.conditions{
-  margin-top: 35px;
-  margin-bottom: 35px;
-  font-weight: bold;
+#conditions p{
+  line-height: 25px;;
+  text-align: center;
 }
 
-#section_principale img{
-float: right;
+#conditions{
+    padding: 60px 0;
 }
 
+#section_principale a{
+  margin-right: 30px;
+  float: right;
+  color: #fff;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.35);
+  padding: 10px;
+}
+
+#section_principale a:hover{
+  text-decoration: none;
+  box-shadow: 0 0 10px rgba(0,0,0, 0.25);
+}
 
 /* ##########   Suppresion du style ABBR   ########## */
 
@@ -499,12 +512,149 @@ abbr[title], abbr[data-original-title] {
 /* ##########   Section Partenaires   ########## */
 
 #partenaires_adep{
-  height: 350px;
+  height: 400px;
   background-color: #fff;
   padding: 50px 30px;
 }
 
+/* ##########   Footer   ########## */
 
+#footer_adep{
+  box-shadow: 0 -6px 8px rgba(0, 0, 0, 0.35);
+}
+
+
+
+
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px) {
+
+  /* ##########   Section principale   ########## */
+
+  /* titres */
+
+  #section_principale h1{
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  /* paragraphes */
+
+  #section_principale p{
+    font-size: 1.3em;
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 35px;
+  }
+
+  /* ##########   Section Partenaires   ########## */
+
+  #partenaires_adep{
+    height: 550px;
+    background-color: #fff;
+    padding: 50px 30px;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px) {
+
+  /* ##########   Section principale   ########## */
+
+  #section_principale{
+    margin-top: 90px;
+    padding-bottom: 80px;
+  }
+
+  #section_principale p{
+    font-size: 1.5em;
+    text-indent: 20px;
+    text-align: justify;
+    margin-right: 15px;
+    margin-left: 15px;
+    line-height: 40px;
+  }
+
+  #section_principale h1{
+    font-size: 2.3em;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+    #section_principale img{
+margin-top: 120px;
+box-shadow: 0 5px 12px rgba(0, 0, 0, 0.35);
+    }
+
+.paragraphes{
+  padding: 40px;
+}
+
+#section_principale a{
+  margin-right: 30px;
+  float: right;
+  color: #fff;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.35);
+  padding: 10px;
+}
+
+#section_principale a:hover{
+  text-decoration: none;
+  box-shadow: 0 0 10px rgba(0,0,0, 0.25);
+}
+
+    /* 3 paragraphes conditionnels */
+
+    #conditions p{
+      font-size: 1.3em;
+      text-align: center;
+    }
+
+    #conditions{
+        border-radius: 3px;
+        border: 1px solid rgba(0,0,0, 0.15);
+        padding: 45px 0;
+        box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+        background-color: #fff;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    #medialab h2{
+      margin-top: 60px;
+  margin-bottom: 60px;
+    }
+
+/* ##########   Section Partenaires   ########## */
+
+#partenaires_adep h2{
+  font-size: 3em;
+  margin-bottom: 70px;
+}
+
+#partenaires_adep{
+  height: 500px;
+  background-color: #fff;
+  padding: 70px 30px;
+}
+
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

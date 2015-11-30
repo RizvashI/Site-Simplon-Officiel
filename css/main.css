@@ -108,11 +108,11 @@ body{
     margin-left: 15%;
 }
 nav .container{
-    transition:all 0.5s ease;
+    transition:all 0.4s ease;
    font-family: 'Josefin sans', serif;
     width: 100%;
     background-color: #34495E;
-    font-size: 1.3em;
+    font-size: 1.4em;
     height: 70px;
     opacity: 1;
     padding-top: 0%;
@@ -150,12 +150,12 @@ nav button {
     margin-top: 2%;
 }
 #monmenu li a{
-    transition:all 0.9s ease;
-    color: white;
+    transition:all 0.3s ease;
+    color: rgba(255,255,255,0.8);
 }
 #monmenu a:hover{
     color: white;
-    opacity: 0.5
+    opacity: 1;
 }
 #mainmenu{
     background-color: #34495E;
@@ -171,7 +171,10 @@ nav .container.sticky {
     padding-top: 0%;
 }
 #mainmenu.sticky{
-    opacity: 0.8;
+    opacity: 0.6;
+}
+#mainmenu:hover{
+    opacity: 1
 }
 #monmenu ul.sticky {
     margin-top: 0%;
@@ -188,9 +191,7 @@ header {
 width: 100%;
 margin-top: 70px;
 }
-header img{
-    width: 100%;
-}
+
 .slider .indicators {
     margin-top: -2%;
     z-index: 1003;
@@ -225,18 +226,57 @@ header {
 
 /* ==========================================  Content  ======================================== */
 
-#firstcontent {
+#contentrow {
     font-family: 'Josefin sans', serif;
-    margin-top: 5%;
     margin-bottom: 5%;
-    border: 0px solid;
-    background-color: white;
+}
+#contentrow h2{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+#contentrow p{
+    line-height: 35px;
+    font-size: 1.2em;
+}
+#texte1 h2{
+    padding-bottom: 5%;
 }
 #contentrow{
     margin-right: 0;
 }
-
-
+iframe {
+    width: 30%;
+}
+#twitter {
+    margin-top: 3%;
+}
+#photo1 {
+    width: 75%;
+}
+#secondcontent {
+    margin-top: 5%;
+}
+#texte2 {
+    margin-top: 5%;
+}
+#texte3 {
+    margin-top: 5%;
+}
+#soustexte3 {
+    margin-left: -2%;
+}
+#soustexte3 h2{
+    opacity: 0.7;
+}
+#soustexte4 h2{
+    opacity: 0.7;
+}
+#logo3 {
+    width: 100%;
+}
+#logo33 {
+    margin-top: 10%;
+}
 /* ------------   Page Simplon general ------------- */
 
 .imgbody{

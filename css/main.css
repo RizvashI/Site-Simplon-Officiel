@@ -427,6 +427,67 @@ footer .row {
     margin-bottom: 10px;
 }
 
+/* #######################################################################################################
+#####################################          PAGE CONTACT           #######################################
+####################################################################################################### */
+
+#info_perso{
+margin-top: 10%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+#info_mathieu{
+  margin-top: 6%;
+}
+
+button{
+  margin-bottom: 4%;
+}
+
+
+@media screen and (width: 768px) {
+#info_perso{
+  margin-top: 10%;
+  border: 1px solid red;
+
+}
+#info_hachemi{
+  border: 1px solid black;
+  width: 50%;
+  padding-right: 30%;
+  padding-top: 6%;
+}
+
+#info_mathieu{
+  border: 1px solid black;
+
+width: 40%;
+}
+
+}
+
+@media screen and (width: 600px) {
+  #info_perso{
+    padding-top: 15%;
+    width: 40%;
+    margin: auto;
+    border: 1px solid black;
+  }
+}
+
+
+@media screen and (width: 320px) {
+  #info_perso{
+    margin-top: 30%;
+  }
+}
+
+
+
+
+
+
 @media screen and (max-width: 990px) {
     hr{
         display: none;

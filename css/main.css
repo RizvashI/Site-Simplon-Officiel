@@ -220,7 +220,7 @@ header img{
     padding: 2%;
 }
 header {
-    height: 400px;
+    background-size: cover;
 }
 
 /* ==========================================  Content  ======================================== */
@@ -334,6 +334,15 @@ footer .row {
     width: 180px;
     margin-left: 0;
     margin-bottom: 10px;
+}
+
+@media screen and (max-width: 990px) {
+    hr{
+        display: none;
+    }
+    .paddingbot {
+        border-left: 0px;
+    }
 }
 
 /* #######################################################################################################

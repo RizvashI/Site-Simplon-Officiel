@@ -345,9 +345,9 @@ footer ul{
     list-style-type: none;
     }
 .paddingbot{
-    border-left: 1px solid;
+    border-left: 1px dotted;
     padding-left: 5%;
-    border-color: rgba(232,220,220,0.2);
+    border-color: rgba(232,220,220,0.4);
 }
 footer h2 {
     font-size: 1.2em;

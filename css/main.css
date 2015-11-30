@@ -426,12 +426,10 @@ footer .row {
 /* paragraphes */
 
 #section_principale p{
-  font-size: 1.5em;
+  font-size: 1em;
   text-indent: 20px;
   text-align: justify;
-  margin-right: 15px;
-  margin-left: 15px;
-  line-height: 40px;
+  line-height: 25px;
 }
 
 /* 3 paragraphes conditionnels */
@@ -443,6 +441,20 @@ footer .row {
 
 #conditions{
     padding: 60px 0;
+}
+
+#section_principale a{
+  margin-right: 30px;
+  float: right;
+  color: #fff;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.35);
+  padding: 10px;
+}
+
+#section_principale a:hover{
+  text-decoration: none;
+  box-shadow: 0 0 10px rgba(0,0,0, 0.25);
 }
 
 /* ##########   Suppresion du style ABBR   ########## */
@@ -480,6 +492,33 @@ abbr[title], abbr[data-original-title] {
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
 
+  /* ##########   Section principale   ########## */
+
+  /* titres */
+
+  #section_principale h1{
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  /* paragraphes */
+
+  #section_principale p{
+    font-size: 1.3em;
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 35px;
+  }
+
+  /* ##########   Section Partenaires   ########## */
+
+  #partenaires_adep{
+    height: 550px;
+    background-color: #fff;
+    padding: 50px 30px;
+  }
+
 
 
 }
@@ -499,6 +538,15 @@ abbr[title], abbr[data-original-title] {
   #section_principale{
     margin-top: 90px;
     padding-bottom: 80px;
+  }
+
+  #section_principale p{
+    font-size: 1.5em;
+    text-indent: 20px;
+    text-align: justify;
+    margin-right: 15px;
+    margin-left: 15px;
+    line-height: 40px;
   }
 
   #section_principale h1{

@@ -338,8 +338,17 @@ footer .row {
     hr{
         display: none;
     }
+    footer ul{
+        display: none;
+    }
+    footer h2{
+        width: 80px;
+    }
     .paddingbot {
         border-left: 0px;
+    }
+    div#sitemap {
+        display: inline-flex;
     }
 }
 

@@ -158,6 +158,7 @@ nav button {
     opacity: 0.5
 }
 #mainmenu{
+    background-color: #34495E;
     transition: all 0.9s ease;
     opacity: 1;
 }
@@ -170,7 +171,7 @@ nav .container.sticky {
     padding-top: 0%;
 }
 #mainmenu.sticky{
-    opacity: 0.9;
+    opacity: 0.8;
 }
 #monmenu ul.sticky {
     margin-top: 0%;
@@ -238,12 +239,13 @@ header {
 footer{
     text-align: center;
     background-image: url(../img/footer-bluethierry.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 350px;
     width: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     margin-left: 0;
+    bottom: 0;
+    height: 100%;
 }
 footer ul{
     padding-left: 0;

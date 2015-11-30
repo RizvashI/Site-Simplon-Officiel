@@ -220,7 +220,7 @@ header img{
     padding: 2%;
 }
 header {
-    height: 400px;
+    background-size: cover;
 }
 
 /* ==========================================  Content  ======================================== */
@@ -232,6 +232,7 @@ header {
     border: 0px solid;
     background-color: white;
 }
+<<<<<<< HEAD
 #contentrow{
     margin-right: 0;
 }
@@ -284,6 +285,8 @@ margin-bottom: 2%;
 
 /* -------------   Page Simplon General ------------- */
 
+=======
+>>>>>>> 133806acd8ee659be66555cde9f4dbc0db32afe9
 
 /* ==========================================  Footer ========================================== */
 footer{
@@ -386,11 +389,74 @@ footer .row {
     margin-bottom: 10px;
 }
 
+@media screen and (max-width: 990px) {
+    hr{
+        display: none;
+    }
+    .paddingbot {
+        border-left: 0px;
+    }
+}
+
 /* #######################################################################################################
 #####################################          PAGE ADEP           #######################################
 ######################################################################################################## */
 
+/* ##########   Section principale   ########## */
 
+#section_principale{
+  margin-top: 90px;
+}
+
+/* titres */
+
+#section_principale h1{
+  font-size: 1.7em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* paragraphes */
+
+#section_principale p{
+  font-size: 1.2em;
+  text-indent: 20px;
+  text-align: justify;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+/* 3 paragraphes conditionnels */
+
+.conditions{
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-weight: bold;
+}
+
+#section_principale img{
+float: right;
+}
+
+
+/* ##########   Suppresion du style ABBR   ########## */
+
+abbr{
+  text-decoration: none;
+}
+
+abbr[title], abbr[data-original-title] {
+    border-bottom: 0;
+    cursor: default;
+}
+
+/* ##########   Section Partenaires   ########## */
+
+#partenaires_adep{
+  height: 350px;
+  background-color: #fff;
+  padding: 50px 30px;
+}
 
 
 /* ==========================================================================

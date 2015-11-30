@@ -188,9 +188,7 @@ header {
 width: 100%;
 margin-top: 70px;
 }
-header img{
-    width: 100%;
-}
+
 .slider .indicators {
     margin-top: -2%;
     z-index: 1003;
@@ -334,21 +332,15 @@ footer .row {
     margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
 /* #######################################################################################################
 #####################################          PAGE CONTACT           #######################################
 ####################################################################################################### */
-
- #img_contact{
-  height: 10%;
-}
 
 #info_perso{
 margin-top: 10%;
   margin-left: 4%;
   margin-right: 4%;
 }
-
 
 #info_mathieu{
   margin-top: 6%;
@@ -358,11 +350,49 @@ button{
   margin-bottom: 4%;
 }
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 300px) {
-  #img_hach{
+
+@media screen and (width: 768px) {
+#info_perso{
+  margin-top: 10%;
+  border: 1px solid red;
+
+}
+#info_hachemi{
+  border: 1px solid black;
+  width: 50%;
+  padding-right: 30%;
+  padding-top: 6%;
+}
+
+#info_mathieu{
+  border: 1px solid black;
+
+width: 40%;
+}
+
+}
+
+@media screen and (width: 600px) {
+  #info_perso{
+    padding-top: 15%;
+    width: 40%;
+    margin: auto;
+    border: 1px solid black;
   }
-=======
+}
+
+
+@media screen and (width: 320px) {
+  #info_perso{
+    margin-top: 30%;
+  }
+}
+
+
+
+
+
+
 @media screen and (max-width: 990px) {
     hr{
         display: none;
@@ -370,7 +400,6 @@ button{
     .paddingbot {
         border-left: 0px;
     }
->>>>>>> 133806acd8ee659be66555cde9f4dbc0db32afe9
 }
 
 /* #######################################################################################################

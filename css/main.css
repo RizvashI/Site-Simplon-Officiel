@@ -557,6 +557,10 @@ width: 40%;
   line-height: 25px;
 }
 
+#section_principale img{
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+}
+
 /* 3 paragraphes conditionnels */
 
 #conditions p{
@@ -573,13 +577,15 @@ width: 40%;
   float: right;
   color: #fff;
   border-radius: 2px;
+  box-shadow: 0 5px 10px rgba(0,0,0, 0.25);
   background-color: rgba(0, 0, 0, 0.35);
   padding: 10px;
 }
 
 #section_principale a:hover{
   text-decoration: none;
-  box-shadow: 0 0 10px rgba(0,0,0, 0.25);
+  box-shadow: 0 8px 15px rgba(0,0,0, 0.35);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #lien_adep{
@@ -601,9 +607,10 @@ abbr[title], abbr[data-original-title] {
 
 #medialab{
   color: #fff;
-  background-color: rgba(255, 0, 0, 0.7);
+  background-color: rgb(227, 19, 71);
+  box-shadow: 0 0 16px rgba(227, 19, 71, 0.4);
   margin-top: 150px;
-  padding: 25px 15px 100px 15px;;
+  padding: 25px 25px 80px 25px;;
 }
 
 #medialab h2{
@@ -708,6 +715,10 @@ abbr[title], abbr[data-original-title] {
     float: none;
   }
 
+  #medialab{
+    padding: 25px 40px 80px 40px;;
+  }
+
 
   /* ##########   Section Partenaires   ########## */
 
@@ -799,8 +810,6 @@ abbr[title], abbr[data-original-title] {
 
 
 #medialab{
-  color: #fff;
-  background-color: rgba(255, 0, 0, 0.7);
   margin-top: 50px;
   padding: 20px 0 40px 0;
 }

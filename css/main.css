@@ -246,8 +246,6 @@ background-size: cover;
 
 #firstcontent {
     font-family: 'Josefin sans', serif;
-<<<<<<< HEAD
-=======
     margin-bottom: 5%;
 }
 #contentrow h2{
@@ -275,14 +273,11 @@ iframe {
     width: 75%;
 }
 #secondcontent {
->>>>>>> e27f1f30112f44aacc6f77654c3c4d5305138af8
     margin-top: 5%;
     margin-bottom: 5%;
     border: 0px solid;
     background-color: white;
 }
-<<<<<<< HEAD
-=======
 #texte2 {
     margin-top: 5%;
 }
@@ -356,7 +351,6 @@ margin-bottom: 2%;
 
 /* -------------   Page Simplon General ------------- */
 
->>>>>>> e27f1f30112f44aacc6f77654c3c4d5305138af8
 
 /* ==========================================  Footer ========================================== */
 footer{
@@ -605,12 +599,6 @@ button{
   font-weight: bold;
 }
 
-<<<<<<< HEAD
-#section_principale img{
-float: right;
-}
-
-=======
 #section_principale a{
   margin-right: 30px;
   float: right;
@@ -629,7 +617,6 @@ float: right;
 #lien_adep{
   margin-top: 30px;
 }
->>>>>>> e27f1f30112f44aacc6f77654c3c4d5305138af8
 
 /* ##########   Suppresion du style ABBR   ########## */
 
@@ -675,17 +662,10 @@ abbr[title], abbr[data-original-title] {
 /* ##########   Section Partenaires   ########## */
 
 #partenaires_adep{
-<<<<<<< HEAD
-  height: 350px;
-=======
->>>>>>> e27f1f30112f44aacc6f77654c3c4d5305138af8
   background-color: #fff;
   padding: 50px 30px;
 }
 
-<<<<<<< HEAD
-
-=======
 #partenaires_adep h2{
   margin-bottom: 80px;
   font-size: 3em;
@@ -928,7 +908,7 @@ abbr[title], abbr[data-original-title] {
  */
 
 .hidden {
-    display: none !important; 
+    display: none !important;
 }
 
 /*

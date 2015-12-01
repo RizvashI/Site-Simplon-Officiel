@@ -95,9 +95,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body{
-    background-color: #F5F5F5;
     margin: 0;
     padding: 0;
+}
+
+a:focus{
+  outline:0;
 }
 
 /* ===========================================   NAVBAR  ========================================= */
@@ -128,6 +131,7 @@ nav .navbar-header {
    font-family: 'Josefin sans', serif;
 }
 .navbar-toggle{
+  transition : all 0.9s ease;
     padding: 10px;
     margin-top: 8px;
     border: 0px;
@@ -144,6 +148,7 @@ nav .navbar-header {
 }
 nav button {
     color: white;
+    box-shadow: none;
 }
 #monmenu ul {
     transition:all 0.5s ease;
@@ -182,54 +187,176 @@ nav .container.sticky {
     margin-left: 2%;
 }
 
+@media screen and (max-width: 444px){
+  #logo1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 307px){
+  #logo1 {
+display: none;
+  }
+}
 /* =====================================   Carousel settings ================================== */
 
 header {
 width: 100%;
 margin-top: 70px;
+background-size: cover;
 }
-
 .slider .indicators {
     margin-top: -2%;
     z-index: 1003;
 }
 #text1 {
+    border: 1px solid white;
     border-radius: 5%;
     width: 22%;
     background-color: rgba(175,157,108,0.9);
     padding: 2%;
 }
 #text2 {
+        border: 1px solid white;
     width: 22%;
     border-radius: 5%;
     background-color: rgba(19,35,45,0.9);
     padding: 2%;
 }
 #text3 {
+        border: 1px solid white;
     width: 22%;
     border-radius: 5%;
     background-color: rgba(251,185,201,0.9);
     padding: 2%;
 }
 #text4 {
+        border: 1px solid white;
     width: 22%;
     border-radius: 5%;
     background-color: rgba(46,45,45,0.9);
     padding: 2%;
 }
-header {
-    background-size: cover;
-}
 
+@media screen and (max-width: 600px) {
+  .slider {
+    display: none;
+  }
+}
 /* ==========================================  Content  ======================================== */
 
 #firstcontent {
     font-family: 'Josefin sans', serif;
+<<<<<<< HEAD
+=======
+    margin-bottom: 5%;
+}
+#contentrow h2{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+#contentrow p{
+    line-height: 30px;
+    font-size: 1.2em;
+}
+#texte1 h2{
+    padding-bottom: 5%;
+    margin-top: 10%;
+}
+#contentrow{
+    margin-right: 0;
+}
+iframe {
+    width: 30%;
+}
+#twitter {
+    margin-top: 3%;
+}
+#photo1 {
+    width: 75%;
+}
+#secondcontent {
+>>>>>>> e27f1f30112f44aacc6f77654c3c4d5305138af8
     margin-top: 5%;
     margin-bottom: 5%;
     border: 0px solid;
     background-color: white;
 }
+<<<<<<< HEAD
+=======
+#texte2 {
+    margin-top: 5%;
+}
+#texte3 {
+    margin-top: 5%;
+}
+#soustexte3 h2{
+    opacity: 0.7;
+}
+#soustexte4 h2{
+    opacity: 0.7;
+}
+#logo3 {
+    width: 139%;
+}
+#logo33 {
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 990px) {
+  #logo3 {
+    display: none;
+  }
+}
+
+/* ------------   Page Simplon general ------------- */
+
+.imgbody{
+width: 100%;
+height: 250px;
+margin-top: 5%
+}
+h1{
+    text-align: center;
+}
+button {
+width: 200px;
+height: 60px;
+/*border-radius: 8px;*/
+border: 0;
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+background-color: pink;
+color: black;
+text-decoration: none;
+margin-top: 5%;
+font-size: 20px;
+margin-left: 8%;
+}
+#simplong{
+    height: 600px;
+}
+#general {
+font-family: 'Josefin sans', serif;
+font-size: 16px;
+font-weight: bold;
+margin-top: 3%;
+margin-bottom: 5%;
+margin-right: 4%;
+line-height: 35px;
+text-indent: 30px;
+}
+#simplong img{
+    width: 35%;
+    /*margin-left: 5%;*/
+}
+#generalvideo {
+margin-top: 3%;
+margin-bottom: 2%;
+}
+
+
+/* -------------   Page Simplon General ------------- */
+
+>>>>>>> e27f1f30112f44aacc6f77654c3c4d5305138af8
 
 /* ==========================================  Footer ========================================== */
 footer{
@@ -250,9 +377,9 @@ footer ul{
     list-style-type: none;
     }
 .paddingbot{
-    border-left: 1px solid;
+    border-left: 1px dotted;
     padding-left: 5%;
-    border-color: rgba(232,220,220,0.2);
+    border-color: rgba(232,220,220,0.4);
 }
 footer h2 {
     font-size: 1.2em;
@@ -274,9 +401,23 @@ footer li {
     opacity: 0.6;
     transition: all 0.5s ease;
 }
-#icon a:hover {
-    color: white;
-    opacity: 1;
+
+#iconfacebook:hover {
+opacity: 1;
+color: #45619D;
+}
+#iconyoutube:hover {
+  opacity: 1;
+  color: #CC181E;
+}
+#icontwitter:hover {
+  opacity: 1;
+  color: #379EC4;
+}
+#iconinstagram:hover {
+  opacity: 1;
+  background: url(img/insta.ico);
+  z-index: 9999;
 }
 #sitemap a {
     text-decoration: none;
@@ -331,6 +472,24 @@ footer .row {
     margin-left: 0;
     margin-bottom: 10px;
 }
+
+/* #######################################################################################################
+#####################################          PAGE CURSUS          #######################################
+####################################################################################################### */
+
+.containercursus {
+    margin: 0 auto;
+}
+.firstcol span {
+    color: #ff5a59;
+    font-weight: bold;
+
+}
+.material-icons { /*------- couleurs des petites icones en debut de btn ----- */
+    color: #ff5a59;
+}
+
+
 
 /* #######################################################################################################
 #####################################          PAGE CONTACT           #######################################
@@ -434,6 +593,10 @@ button{
   margin-left: 15px;
 }
 
+#section_principale img{
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+}
+
 /* 3 paragraphes conditionnels */
 
 .conditions{
@@ -442,10 +605,32 @@ button{
   font-weight: bold;
 }
 
+<<<<<<< HEAD
 #section_principale img{
 float: right;
 }
 
+=======
+#section_principale a{
+  margin-right: 30px;
+  float: right;
+  color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 5px 10px rgba(0,0,0, 0.25);
+  background-color: rgba(0, 0, 0, 0.35);
+  padding: 10px;
+}
+
+#section_principale a:hover{
+  text-decoration: none;
+  box-shadow: 0 8px 15px rgba(0,0,0, 0.35);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#lien_adep{
+  margin-top: 30px;
+}
+>>>>>>> e27f1f30112f44aacc6f77654c3c4d5305138af8
 
 /* ##########   Suppresion du style ABBR   ########## */
 
@@ -458,15 +643,284 @@ abbr[title], abbr[data-original-title] {
     cursor: default;
 }
 
+/* Media Lab */
+
+#medialab{
+  color: #fff;
+  background-color: rgb(227, 19, 71);
+  box-shadow: 0 0 16px rgba(227, 19, 71, 0.4);
+  margin-top: 150px;
+  padding: 25px 25px 80px 25px;;
+}
+
+#medialab h2{
+  font-size: 1.5em;
+  margin-bottom: 60px;
+    }
+
+#medialab p{
+  font-size: 1.1em;
+}
+
+#medialab a{
+  margin-top: 30px;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0);
+}
+
+#medialab a:hover{
+  background-color: rgba(0,0,0,0.2);
+}
+
 /* ##########   Section Partenaires   ########## */
 
 #partenaires_adep{
+<<<<<<< HEAD
   height: 350px;
+=======
+>>>>>>> e27f1f30112f44aacc6f77654c3c4d5305138af8
   background-color: #fff;
   padding: 50px 30px;
 }
 
+<<<<<<< HEAD
 
+=======
+#partenaires_adep h2{
+  margin-bottom: 80px;
+  font-size: 3em;
+}
+
+#partenaires_adep img{
+  padding: 8%;
+}
+
+/* ##########   Footer   ########## */
+
+#footer_adep{
+  box-shadow: 0 -6px 8px rgba(0, 0, 0, 0.35);
+}
+
+
+
+
+
+
+/* ##############################       TABLETTES       ############################## */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px) {
+
+  /* ##########   Section principale   ########## */
+
+  /* titres */
+
+  #section_principale h1{
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  /* paragraphes */
+
+  #section_principale p{
+    font-size: 1.3em;
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 35px;
+  }
+
+  /* photo */
+
+  #img_adep{
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  /* 3 paragraphes conditionnels */
+
+  #conditions p{
+    font-size: 1.1em;
+    text-align: center;
+  }
+
+  #conditions{
+      border-radius: 3px;
+      border: 1px solid rgba(0,0,0, 0.15);
+      padding: 45px 20px;
+      box-shadow: 0 0 15px rgba(0,0,0, 0.2);
+      background-color: #fff;
+      margin-top: 50px;
+      margin-bottom: 80px;
+  }
+
+  .paragraphes{
+    margin-bottom: 120px;
+  }
+
+/* boutons liens */
+
+  #section_principale a{
+    margin: 30px auto;
+    text-align: center;
+    display: block;
+    width: 200px;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px rgba(0,0,0, 0.25);
+    background-color: rgba(0, 0, 0, 0.35);
+    float: none;
+    padding: 10px;
+  }
+
+  #section_principale a:hover{
+    text-decoration: none;
+    box-shadow: 0 8px 15px rgba(0,0,0, 0.35);
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  #medialab{
+    padding: 25px 40px 80px 40px;;
+  }
+
+  #medialab a{
+    margin-top: 30px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0);
+  }
+
+  #medialab a:hover{
+    background-color: rgba(0,0,0,0.2);
+  }
+
+
+  /* ##########   Section Partenaires   ########## */
+
+  #partenaires_adep{
+    background-color: #fff;
+    padding: 50px 30px;
+  }
+
+  #partenaires_adep img{
+    padding: 5%;
+  }
+
+}
+
+
+
+
+
+
+/* ##############################       PC      ############################## */
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px) {
+
+  /* ##########   Section principale   ########## */
+
+  #section_principale{
+    margin-top: 90px;
+    padding-bottom: 80px;
+  }
+
+  #section_principale p{
+    font-size: 1.2em;
+    text-indent: 20px;
+    text-align: justify;
+    margin-right: 15px;
+    margin-left: 15px;
+    line-height: 40px;
+  }
+
+  #section_principale h1{
+    font-size: 2.3em;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+
+/* photo */
+
+#img_adep{
+  margin-top: 180px;
+}
+
+.paragraphes{
+  padding: 40px;
+}
+
+#section_principale a{
+  margin-right: 30px;
+  float: right;
+  padding: 10px;
+}
+    /* 3 paragraphes conditionnels */
+
+#conditions p{
+      font-size: 1.15em;
+      text-align: center;
+    }
+
+
+
+#medialab{
+  margin-top: 50px;
+  padding: 20px 0 40px 0;
+}
+
+#medialab h2{
+  font-size: 1.5em;
+  margin-bottom: 60px;
+    }
+
+#medialab p{
+  font-size: 1.1em;
+}
+
+#medialab a{
+  display: block;
+  width: 250px;
+  text-align: center;
+  margin-top: 30px;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0);
+  margin-right: 40px;
+}
+
+#medialab a:hover{
+  background-color: rgba(0,0,0,0.2);
+}
+
+/* ##########   Section Partenaires   ########## */
+
+#partenaires_adep h2{
+  font-size: 3em;
+  margin-bottom: 70px;
+}
+
+#partenaires_adep{
+  background-color: #fff;
+  padding: 70px 30px;
+}
+
+}
+
+/* Large devices (desktops, 1200px and up) */
+@media (min-width:1200px) {
+
+/* ##### Section principale ##### */
+
+  /* photo */
+
+  #img_adep{
+    margin-top: 80px;
+  }
+
+}
+>>>>>>> e27f1f30112f44aacc6f77654c3c4d5305138af8
 /* ==========================================================================
    Helper classes
    ========================================================================== */

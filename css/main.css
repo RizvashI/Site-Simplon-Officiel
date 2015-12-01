@@ -559,6 +559,10 @@ width: 40%;
   box-shadow: 0 0 10px rgba(0,0,0, 0.25);
 }
 
+#lien_adep{
+  margin-top: 30px;
+}
+
 /* ##########   Suppresion du style ABBR   ########## */
 
 abbr{
@@ -570,12 +574,42 @@ abbr[title], abbr[data-original-title] {
     cursor: default;
 }
 
+/* Media Lab */
+
+#medialab{
+  color: #fff;
+  background-color: rgba(255, 0, 0, 0.7);
+  margin-top: 150px;
+  padding: 25px 15px 100px 15px;;
+}
+
+#medialab h2{
+  font-size: 1.5em;
+  margin-bottom: 60px;
+    }
+
+#medialab p{
+  font-size: 1.1em;
+}
+
+#medialab a{
+  margin-top: 30px;
+}
+
 /* ##########   Section Partenaires   ########## */
 
 #partenaires_adep{
-  height: 400px;
   background-color: #fff;
   padding: 50px 30px;
+}
+
+#partenaires_adep h2{
+  margin-bottom: 80px;
+  font-size: 3em;
+}
+
+#partenaires_adep img{
+  padding: 8%;
 }
 
 /* ##########   Footer   ########## */
@@ -613,15 +647,55 @@ abbr[title], abbr[data-original-title] {
     line-height: 35px;
   }
 
+  /* photo */
+
+  #img_adep{
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  /* 3 paragraphes conditionnels */
+
+  #conditions p{
+    font-size: 1.1em;
+    text-align: center;
+  }
+
+  #conditions{
+      border-radius: 3px;
+      border: 1px solid rgba(0,0,0, 0.15);
+      padding: 45px 20px;
+      box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+      background-color: #fff;
+      margin-top: 50px;
+      margin-bottom: 80px;
+  }
+
+  .paragraphes{
+    margin-bottom: 120px;
+  }
+
+/* boutons liens */
+
+  #section_principale a{
+    margin: 30px auto;
+    text-align: center;
+    display: block;
+    width: 200px;
+    float: none;
+  }
+
+
   /* ##########   Section Partenaires   ########## */
 
   #partenaires_adep{
-    height: 550px;
     background-color: #fff;
     padding: 50px 30px;
   }
 
-
+  #partenaires_adep img{
+    padding: 5%;
+  }
 
 }
 
@@ -643,7 +717,7 @@ abbr[title], abbr[data-original-title] {
   }
 
   #section_principale p{
-    font-size: 1.5em;
+    font-size: 1.35em;
     text-indent: 20px;
     text-align: justify;
     margin-right: 15px;
@@ -657,10 +731,13 @@ abbr[title], abbr[data-original-title] {
     text-align: center;
   }
 
-    #section_principale img{
-margin-top: 120px;
-box-shadow: 0 5px 12px rgba(0, 0, 0, 0.35);
-    }
+
+/* photo */
+
+#img_adep{
+  margin-top: 180px;
+
+}
 
 .paragraphes{
   padding: 40px;
@@ -682,12 +759,12 @@ box-shadow: 0 5px 12px rgba(0, 0, 0, 0.35);
 
     /* 3 paragraphes conditionnels */
 
-    #conditions p{
-      font-size: 1.3em;
+#conditions p{
+      font-size: 1.15em;
       text-align: center;
     }
 
-    #conditions{
+#conditions{
         border-radius: 3px;
         border: 1px solid rgba(0,0,0, 0.15);
         padding: 45px 0;
@@ -697,10 +774,29 @@ box-shadow: 0 5px 12px rgba(0, 0, 0, 0.35);
         margin-bottom: 40px;
     }
 
-    #medialab h2{
-      margin-top: 60px;
+
+#medialab{
+  color: #fff;
+  background-color: rgba(255, 0, 0, 0.7);
+  margin-top: 50px;
+  padding: 20px 0 40px 0;
+}
+
+#medialab h2{
+  font-size: 1.5em;
   margin-bottom: 60px;
     }
+
+#medialab p{
+  font-size: 1.1em;
+}
+
+#medialab a{
+  display: block;
+  width: 250px;
+  text-align: center;
+  margin-right: 40px;
+}
 
 /* ##########   Section Partenaires   ########## */
 
@@ -710,7 +806,6 @@ box-shadow: 0 5px 12px rgba(0, 0, 0, 0.35);
 }
 
 #partenaires_adep{
-  height: 500px;
   background-color: #fff;
   padding: 70px 30px;
 }

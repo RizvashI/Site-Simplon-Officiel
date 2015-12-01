@@ -95,21 +95,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body{
-<<<<<<< HEAD
     background-color: #F5F5F5;
-=======
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
     margin: 0;
     padding: 0;
 }
 
-<<<<<<< HEAD
-=======
-a:focus{
-  outline:0;
-}
-
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 /* ===========================================   NAVBAR  ========================================= */
 #logo1{
     transition:all 0.9s ease;
@@ -118,19 +108,11 @@ a:focus{
     margin-left: 15%;
 }
 nav .container{
-<<<<<<< HEAD
     transition:all 0.4s ease;
    font-family: 'Josefin sans', serif;
     width: 100%;
     background-color: #34495E;
     font-size: 1.4em;
-=======
-    transition:all 0.5s ease;
-   font-family: 'Josefin sans', serif;
-    width: 100%;
-    background-color: #34495E;
-    font-size: 1.3em;
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
     height: 70px;
     opacity: 1;
     padding-top: 0%;
@@ -170,21 +152,12 @@ nav button {
     margin-top: 2%;
 }
 #monmenu li a{
-<<<<<<< HEAD
     transition:all 0.3s ease;
     color: rgba(255,255,255,0.8);
 }
 #monmenu a:hover{
     color: white;
     opacity: 1;
-=======
-    transition:all 0.9s ease;
-    color: white;
-}
-#monmenu a:hover{
-    color: white;
-    opacity: 0.5
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 }
 #mainmenu{
     background-color: #34495E;
@@ -200,14 +173,10 @@ nav .container.sticky {
     padding-top: 0%;
 }
 #mainmenu.sticky{
-<<<<<<< HEAD
     opacity: 0.6;
 }
 #mainmenu:hover{
     opacity: 1
-=======
-    opacity: 0.8;
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 }
 #monmenu ul.sticky {
     margin-top: 0%;
@@ -267,13 +236,7 @@ background-size: cover;
     background-color: rgba(46,45,45,0.9);
     padding: 2%;
 }
-<<<<<<< HEAD
-test {
-  lol
-}
-=======
 
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 @media screen and (max-width: 600px) {
   .slider {
     display: none;
@@ -281,11 +244,7 @@ test {
 }
 /* ==========================================  Content  ======================================== */
 
-<<<<<<< HEAD
 #contentrow {
-=======
-#firstcontent {
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
     font-family: 'Josefin sans', serif;
     margin-bottom: 5%;
 }
@@ -315,12 +274,6 @@ iframe {
 }
 #secondcontent {
     margin-top: 5%;
-<<<<<<< HEAD
-=======
-    margin-bottom: 5%;
-    border: 0px solid;
-    background-color: white;
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 }
 #texte2 {
     margin-top: 5%;
@@ -349,14 +302,6 @@ iframe {
 
 /* ------------   Page Simplon general ------------- */
 
-<<<<<<< HEAD
-=======
-.container{
-    font-family: 'Josefin sans', serif;
-    font-size: 16px;
-    font-weight: bold;
-}
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 .imgbody{
 width: 100%;
 height: 250px;
@@ -378,44 +323,11 @@ margin-top: 5%;
 font-size: 20px;
 margin-left: 8%;
 }
-<<<<<<< HEAD
 #simplong{
     height: 600px;
 }
 #general {
 font-family: 'Josefin sans', serif;
-=======
-
-/* -------------------------- debut de l'effet du boutton ---------------------------*/
-.btn3d {
-    position:relative;
-    top: -6px;
-    border:0;
-     transition: all 40ms linear;
-     margin-top:10px;
-     margin-bottom:10px;
-     margin-left:2px;
-     margin-right:2px;
-}
-.btn3d:active:focus,
-.btn3d:focus:hover,
-.btn3d:focus {
-    -moz-outline-style:none;
-         outline:medium none;
-}
-.btn3d:active, .btn3d.active {
-    top:2px;
-}
-.btn3d.btn-magick {
-    color: #fff;
-    box-shadow:0 0 0 1px #ce0836 inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #ce0836, 0 8px 8px 1px rgba(0,0,0,0.5);
-    background-color:#ce0836;
-}
-/* ---------------------- fin de l'effet du boutton ----------------------*/
-
-#general {
-/*font-family: 'Josefin sans', serif;*/
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 font-size: 16px;
 font-weight: bold;
 margin-top: 3%;
@@ -432,15 +344,6 @@ text-indent: 30px;
 margin-top: 3%;
 margin-bottom: 2%;
 }
-<<<<<<< HEAD
-=======
-#formationsimplong{
-    margin-right: 8%;
-}
-.footersimplong{
-    margin-top: 5%;
-}
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 
 
 /* -------------   Page Simplon General ------------- */
@@ -549,47 +452,16 @@ footer .row {
 }
 
 /* #######################################################################################################
-<<<<<<< HEAD
 #####################################          PAGE CONTACT           #######################################
 ####################################################################################################### */
 
 #info_perso{
 margin-top: 10%;
-=======
-#####################################          PAGE CURSUS          #######################################
-####################################################################################################### */
-
-.containercursus {
-    margin: 0 auto;
-}
-.firstcol span {
-    color: #ff5a59;
-    font-weight: bold;
-
-}
-.material-icons { /*------- couleurs des petites icones en debut de btn ----- */
-    color: #ff5a59;
-}
-
-
-
-/* #######################################################################################################
-#####################################          PAGE CONTACT           #######################################
-####################################################################################################### */
-
-
-#info_perso{
-  margin-top: 10%;
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
   margin-left: 4%;
   margin-right: 4%;
 }
 
-<<<<<<< HEAD
 #info_mathieu{
-=======
-#info_hachemi map{
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
   margin-top: 6%;
 }
 
@@ -597,7 +469,6 @@ button{
   margin-bottom: 4%;
 }
 
-<<<<<<< HEAD
 
 @media screen and (width: 768px) {
 #info_perso{
@@ -605,19 +476,6 @@ button{
   border: 1px solid red;
 
 }
-=======
-#formu{
-  width: 70%;
-  margin-top: 7%;
-  background-color: white;
-}
-
-#map{
-  margin-top: 15%;
-}
-
-/*
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 #info_hachemi{
   border: 1px solid black;
   width: 50%;
@@ -626,39 +484,22 @@ button{
 }
 
 #info_mathieu{
-<<<<<<< HEAD
   border: 1px solid black;
 
 width: 40%;
 }
 
 }
-=======
-  padding-right: 30%;
-  padding-top: 6%;
-}
-
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 
 @media screen and (width: 600px) {
   #info_perso{
     padding-top: 15%;
-<<<<<<< HEAD
     width: 40%;
     margin: auto;
     border: 1px solid black;
   }
 }
 
-=======
-    width: 70%;
-    margin: auto;
-    text-align: center;
-    border: 1px solid black;
-  }
-}
-*/
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 
 @media screen and (width: 320px) {
   #info_perso{
@@ -675,7 +516,6 @@ width: 40%;
     hr{
         display: none;
     }
-<<<<<<< HEAD
     footer ul{
         display: none;
     }
@@ -688,11 +528,6 @@ width: 40%;
     div#sitemap {
         display: inline-flex;
     }
-=======
-    .paddingbot {
-        border-left: 0px;
-    }
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 }
 
 /* #######################################################################################################
@@ -703,20 +538,13 @@ width: 40%;
 
 #section_principale{
   margin-top: 90px;
-<<<<<<< HEAD
   padding-bottom: 80px;
-=======
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 }
 
 /* titres */
 
 #section_principale h1{
-<<<<<<< HEAD
   font-size: 1.5em;
-=======
-  font-size: 1.7em;
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
   margin-bottom: 30px;
   text-align: center;
 }
@@ -724,23 +552,14 @@ width: 40%;
 /* paragraphes */
 
 #section_principale p{
-<<<<<<< HEAD
   font-size: 1em;
   text-indent: 20px;
   text-align: justify;
   line-height: 25px;
-=======
-  font-size: 1.2em;
-  text-indent: 20px;
-  text-align: justify;
-  margin-right: 15px;
-  margin-left: 15px;
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 }
 
 /* 3 paragraphes conditionnels */
 
-<<<<<<< HEAD
 #conditions p{
   line-height: 25px;;
   text-align: center;
@@ -749,15 +568,6 @@ width: 40%;
 #conditions{
     padding: 60px 0;
 }
-=======
-.conditions{
-  margin-top: 35px;
-  margin-bottom: 35px;
-  font-weight: bold;
-}
-
-/* Liens */
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 
 #section_principale a{
   margin-right: 30px;
@@ -770,12 +580,7 @@ width: 40%;
 
 #section_principale a:hover{
   text-decoration: none;
-<<<<<<< HEAD
   box-shadow: 0 0 10px rgba(0,0,0, 0.25);
-=======
-  box-shadow: 0 0 15px rgba(0,0,0, 0.35);
-  background-color: rgba(0, 0, 0, 0.5);
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 }
 
 #lien_adep{
@@ -813,16 +618,6 @@ abbr[title], abbr[data-original-title] {
 
 #medialab a{
   margin-top: 30px;
-<<<<<<< HEAD
-=======
-  border: 3px solid #fff;
-  border-radius: 5px;
-  background-color: rgba(0,0,0,0);
-}
-
-#medialab a:hover{
-  background-color: rgba(0,0,0,0.2);
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 }
 
 /* ##########   Section Partenaires   ########## */
@@ -852,29 +647,13 @@ abbr[title], abbr[data-original-title] {
 
 
 
-<<<<<<< HEAD
 
-=======
-/* ##############################       TABLETTES       ############################## */
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
 
   /* ##########   Section principale   ########## */
 
-<<<<<<< HEAD
-=======
-header{
-  background-image: url(../img/footer-blue.jpg);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  height: 300px;
-}
-
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
   /* titres */
 
   #section_principale h1{
@@ -910,11 +689,7 @@ header{
       border-radius: 3px;
       border: 1px solid rgba(0,0,0, 0.15);
       padding: 45px 20px;
-<<<<<<< HEAD
       box-shadow: 0 0 10px rgba(0,0,0, 0.1);
-=======
-      box-shadow: 0 0 15px rgba(0,0,0, 0.2);
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
       background-color: #fff;
       margin-top: 50px;
       margin-bottom: 80px;
@@ -931,38 +706,9 @@ header{
     text-align: center;
     display: block;
     width: 200px;
-<<<<<<< HEAD
     float: none;
   }
 
-=======
-    border-radius: 2px;
-    background-color: rgba(0, 0, 0, 0.35);
-    float: none;
-    padding: 10px;
-  }
-
-  #section_principale a:hover{
-    text-decoration: none;
-    box-shadow: 0 8px 15px rgba(0,0,0, 0.35);
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-
-  #medialab{
-    padding: 25px 40px 80px 40px;;
-  }
-
-  #medialab a{
-    margin-top: 30px;
-    border: 3px solid #fff;
-    border-radius: 5px;
-    background-color: rgba(0,0,0,0);
-  }
-
-  #medialab a:hover{
-    background-color: rgba(0,0,0,0.2);
-  }
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 
   /* ##########   Section Partenaires   ########## */
 
@@ -982,11 +728,7 @@ header{
 
 
 
-<<<<<<< HEAD
 
-=======
-/* ##############################       PC      ############################## */
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
@@ -999,11 +741,7 @@ header{
   }
 
   #section_principale p{
-<<<<<<< HEAD
     font-size: 1.35em;
-=======
-    font-size: 1.2em;
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
     text-indent: 20px;
     text-align: justify;
     margin-right: 15px;
@@ -1022,10 +760,7 @@ header{
 
 #img_adep{
   margin-top: 180px;
-<<<<<<< HEAD
 
-=======
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 }
 
 .paragraphes{
@@ -1035,7 +770,6 @@ header{
 #section_principale a{
   margin-right: 30px;
   float: right;
-<<<<<<< HEAD
   color: #fff;
   border-radius: 2px;
   background-color: rgba(0, 0, 0, 0.35);
@@ -1047,10 +781,6 @@ header{
   box-shadow: 0 0 10px rgba(0,0,0, 0.25);
 }
 
-=======
-  padding: 10px;
-}
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
     /* 3 paragraphes conditionnels */
 
 #conditions p{
@@ -1058,7 +788,6 @@ header{
       text-align: center;
     }
 
-<<<<<<< HEAD
 #conditions{
         border-radius: 3px;
         border: 1px solid rgba(0,0,0, 0.15);
@@ -1068,8 +797,6 @@ header{
         margin-top: 40px;
         margin-bottom: 40px;
     }
-=======
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 
 
 #medialab{
@@ -1092,23 +819,9 @@ header{
   display: block;
   width: 250px;
   text-align: center;
-<<<<<<< HEAD
   margin-right: 40px;
 }
 
-=======
-  margin-top: 30px;
-  border: 3px solid #fff;
-  border-radius: 5px;
-  background-color: rgba(0,0,0,0);
-  margin-right: 40px;
-}
-
-#medialab a:hover{
-  background-color: rgba(0,0,0,0.2);
-}
-
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 /* ##########   Section Partenaires   ########## */
 
 #partenaires_adep h2{
@@ -1122,24 +835,6 @@ header{
 }
 
 }
-<<<<<<< HEAD
-=======
-
-/* Large devices (desktops, 1200px and up) */
-@media (min-width:1200px) {
-
-/* ##### Section principale ##### */
-
-  /* photo */
-
-  #img_adep{
-    margin-top: 80px;
-  }
-
-}
-
-
->>>>>>> 11c2f14d74807c01b5614318f3276eb3c2a6bc2f
 /* ==========================================================================
    Helper classes
    ========================================================================== */

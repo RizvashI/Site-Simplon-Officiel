@@ -392,9 +392,23 @@ footer li {
     opacity: 0.6;
     transition: all 0.5s ease;
 }
-#icon a:hover {
-    color: white;
-    opacity: 1;
+
+#iconfacebook:hover {
+opacity: 1;
+color: #45619D;
+}
+#iconyoutube:hover {
+  opacity: 1;
+  color: #CC181E;
+}
+#icontwitter:hover {
+  opacity: 1;
+  color: #379EC4;
+}
+#iconinstagram:hover {
+  opacity: 1;
+  background: url(img/insta.ico);
+  z-index: 9999;
 }
 #sitemap a {
     text-decoration: none;

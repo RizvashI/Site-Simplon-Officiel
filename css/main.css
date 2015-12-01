@@ -108,11 +108,11 @@ body{
     margin-left: 15%;
 }
 nav .container{
-    transition:all 0.4s ease;
+    transition:all 0.5s ease;
    font-family: 'Josefin sans', serif;
     width: 100%;
     background-color: #34495E;
-    font-size: 1.4em;
+    font-size: 1.3em;
     height: 70px;
     opacity: 1;
     padding-top: 0%;
@@ -150,12 +150,12 @@ nav button {
     margin-top: 2%;
 }
 #monmenu li a{
-    transition:all 0.3s ease;
-    color: rgba(255,255,255,0.8);
+    transition:all 0.9s ease;
+    color: white;
 }
 #monmenu a:hover{
     color: white;
-    opacity: 1;
+    opacity: 0.5
 }
 #mainmenu{
     background-color: #34495E;
@@ -171,10 +171,7 @@ nav .container.sticky {
     padding-top: 0%;
 }
 #mainmenu.sticky{
-    opacity: 0.6;
-}
-#mainmenu:hover{
-    opacity: 1
+    opacity: 0.8;
 }
 #monmenu ul.sticky {
     margin-top: 0%;
@@ -226,105 +223,13 @@ header {
 
 /* ==========================================  Content  ======================================== */
 
-#contentrow {
+#firstcontent {
     font-family: 'Josefin sans', serif;
+    margin-top: 5%;
     margin-bottom: 5%;
+    border: 0px solid;
+    background-color: white;
 }
-#contentrow h2{
-    font-size: 1.4em;
-    font-weight: bold;
-}
-#contentrow p{
-    line-height: 35px;
-    font-size: 1.2em;
-}
-#texte1 h2{
-    padding-bottom: 5%;
-}
-#contentrow{
-    margin-right: 0;
-}
-iframe {
-    width: 30%;
-}
-#twitter {
-    margin-top: 3%;
-}
-#photo1 {
-    width: 75%;
-}
-#secondcontent {
-    margin-top: 5%;
-}
-#texte2 {
-    margin-top: 5%;
-}
-#texte3 {
-    margin-top: 5%;
-}
-#soustexte3 {
-    margin-left: -2%;
-}
-#soustexte3 h2{
-    opacity: 0.7;
-}
-#soustexte4 h2{
-    opacity: 0.7;
-}
-#logo3 {
-    width: 100%;
-}
-#logo33 {
-    margin-top: 10%;
-}
-/* ------------   Page Simplon general ------------- */
-
-.imgbody{
-width: 100%;
-height: 250px;
-margin-top: 5%
-}
-h1{
-    text-align: center;
-}
-button {
-width: 200px;
-height: 60px;
-/*border-radius: 8px;*/
-border: 0;
-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
-background-color: pink;
-color: black;
-text-decoration: none;
-margin-top: 5%;
-font-size: 20px;
-margin-left: 8%;
-}
-#simplong{
-    height: 600px;
-}
-#general {
-font-family: 'Josefin sans', serif;
-font-size: 16px;
-font-weight: bold;
-margin-top: 3%;
-margin-bottom: 5%;
-margin-right: 4%;
-line-height: 35px;
-text-indent: 30px;
-}
-#simplong img{
-    width: 35%;
-    /*margin-left: 5%;*/
-}
-#generalvideo {
-margin-top: 3%;
-margin-bottom: 2%;
-}
-
-
-/* -------------   Page Simplon General ------------- */
-
 
 /* ==========================================  Footer ========================================== */
 footer{
@@ -431,13 +336,14 @@ footer .row {
 #####################################          PAGE CONTACT           #######################################
 ####################################################################################################### */
 
+
 #info_perso{
-margin-top: 10%;
+  margin-top: 10%;
   margin-left: 4%;
   margin-right: 4%;
 }
 
-#info_mathieu{
+#info_hachemi map{
   margin-top: 6%;
 }
 
@@ -445,13 +351,17 @@ button{
   margin-bottom: 4%;
 }
 
-
-@media screen and (width: 768px) {
-#info_perso{
-  margin-top: 10%;
-  border: 1px solid red;
-
+#formu{
+  width: 70%;
+  margin-top: 7%;
+  background-color: white;
 }
+
+#map{
+  margin-top: 15%;
+}
+
+/*
 #info_hachemi{
   border: 1px solid black;
   width: 50%;
@@ -460,22 +370,21 @@ button{
 }
 
 #info_mathieu{
-  border: 1px solid black;
-
-width: 40%;
+  padding-right: 30%;
+  padding-top: 6%;
 }
 
-}
 
 @media screen and (width: 600px) {
   #info_perso{
     padding-top: 15%;
-    width: 40%;
+    width: 70%;
     margin: auto;
+    text-align: center;
     border: 1px solid black;
   }
 }
-
+*/
 
 @media screen and (width: 320px) {
   #info_perso{
@@ -492,17 +401,8 @@ width: 40%;
     hr{
         display: none;
     }
-    footer ul{
-        display: none;
-    }
-    footer h2{
-        width: 80px;
-    }
     .paddingbot {
         border-left: 0px;
-    }
-    div#sitemap {
-        display: inline-flex;
     }
 }
 
@@ -514,13 +414,12 @@ width: 40%;
 
 #section_principale{
   margin-top: 90px;
-  padding-bottom: 80px;
 }
 
 /* titres */
 
 #section_principale h1{
-  font-size: 1.5em;
+  font-size: 1.7em;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -528,36 +427,25 @@ width: 40%;
 /* paragraphes */
 
 #section_principale p{
-  font-size: 1em;
+  font-size: 1.2em;
   text-indent: 20px;
   text-align: justify;
-  line-height: 25px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 /* 3 paragraphes conditionnels */
 
-#conditions p{
-  line-height: 25px;;
-  text-align: center;
+.conditions{
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-weight: bold;
 }
 
-#conditions{
-    padding: 60px 0;
+#section_principale img{
+float: right;
 }
 
-#section_principale a{
-  margin-right: 30px;
-  float: right;
-  color: #fff;
-  border-radius: 2px;
-  background-color: rgba(0, 0, 0, 0.35);
-  padding: 10px;
-}
-
-#section_principale a:hover{
-  text-decoration: none;
-  box-shadow: 0 0 10px rgba(0,0,0, 0.25);
-}
 
 /* ##########   Suppresion du style ABBR   ########## */
 
@@ -573,149 +461,12 @@ abbr[title], abbr[data-original-title] {
 /* ##########   Section Partenaires   ########## */
 
 #partenaires_adep{
-  height: 400px;
+  height: 350px;
   background-color: #fff;
   padding: 50px 30px;
 }
 
-/* ##########   Footer   ########## */
 
-#footer_adep{
-  box-shadow: 0 -6px 8px rgba(0, 0, 0, 0.35);
-}
-
-
-
-
-
-
-
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width:768px) {
-
-  /* ##########   Section principale   ########## */
-
-  /* titres */
-
-  #section_principale h1{
-    font-size: 2em;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-
-  /* paragraphes */
-
-  #section_principale p{
-    font-size: 1.3em;
-    text-indent: 20px;
-    text-align: justify;
-    line-height: 35px;
-  }
-
-  /* ##########   Section Partenaires   ########## */
-
-  #partenaires_adep{
-    height: 550px;
-    background-color: #fff;
-    padding: 50px 30px;
-  }
-
-
-
-}
-
-
-
-
-
-
-
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width:992px) {
-
-  /* ##########   Section principale   ########## */
-
-  #section_principale{
-    margin-top: 90px;
-    padding-bottom: 80px;
-  }
-
-  #section_principale p{
-    font-size: 1.5em;
-    text-indent: 20px;
-    text-align: justify;
-    margin-right: 15px;
-    margin-left: 15px;
-    line-height: 40px;
-  }
-
-  #section_principale h1{
-    font-size: 2.3em;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-
-    #section_principale img{
-margin-top: 120px;
-box-shadow: 0 5px 12px rgba(0, 0, 0, 0.35);
-    }
-
-.paragraphes{
-  padding: 40px;
-}
-
-#section_principale a{
-  margin-right: 30px;
-  float: right;
-  color: #fff;
-  border-radius: 2px;
-  background-color: rgba(0, 0, 0, 0.35);
-  padding: 10px;
-}
-
-#section_principale a:hover{
-  text-decoration: none;
-  box-shadow: 0 0 10px rgba(0,0,0, 0.25);
-}
-
-    /* 3 paragraphes conditionnels */
-
-    #conditions p{
-      font-size: 1.3em;
-      text-align: center;
-    }
-
-    #conditions{
-        border-radius: 3px;
-        border: 1px solid rgba(0,0,0, 0.15);
-        padding: 45px 0;
-        box-shadow: 0 0 10px rgba(0,0,0, 0.1);
-        background-color: #fff;
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-
-    #medialab h2{
-      margin-top: 60px;
-  margin-bottom: 60px;
-    }
-
-/* ##########   Section Partenaires   ########## */
-
-#partenaires_adep h2{
-  font-size: 3em;
-  margin-bottom: 70px;
-}
-
-#partenaires_adep{
-  height: 500px;
-  background-color: #fff;
-  padding: 70px 30px;
-}
-
-}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

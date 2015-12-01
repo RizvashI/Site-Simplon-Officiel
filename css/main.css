@@ -100,6 +100,10 @@ body{
     padding: 0;
 }
 
+a:focus{
+  outline:0;
+}
+
 /* ===========================================   NAVBAR  ========================================= */
 #logo1{
     transition:all 0.9s ease;
@@ -653,7 +657,7 @@ abbr[title], abbr[data-original-title] {
 
 
 
-
+/* ##############################       TABLETTES       ############################## */
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px) {
@@ -712,7 +716,17 @@ abbr[title], abbr[data-original-title] {
     text-align: center;
     display: block;
     width: 200px;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px rgba(0,0,0, 0.25);
+    background-color: rgba(0, 0, 0, 0.35);
     float: none;
+    padding: 10px;
+  }
+
+  #section_principale a:hover{
+    text-decoration: none;
+    box-shadow: 0 8px 15px rgba(0,0,0, 0.35);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 
   #medialab{
@@ -738,7 +752,7 @@ abbr[title], abbr[data-original-title] {
 
 
 
-
+/* ##############################       PC      ############################## */
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
@@ -751,7 +765,7 @@ abbr[title], abbr[data-original-title] {
   }
 
   #section_principale p{
-    font-size: 1.35em;
+    font-size: 1.2em;
     text-indent: 20px;
     text-align: justify;
     margin-right: 15px;
@@ -770,7 +784,6 @@ abbr[title], abbr[data-original-title] {
 
 #img_adep{
   margin-top: 180px;
-
 }
 
 .paragraphes{
@@ -780,17 +793,8 @@ abbr[title], abbr[data-original-title] {
 #section_principale a{
   margin-right: 30px;
   float: right;
-  color: #fff;
-  border-radius: 2px;
-  background-color: rgba(0, 0, 0, 0.35);
   padding: 10px;
 }
-
-#section_principale a:hover{
-  text-decoration: none;
-  box-shadow: 0 0 10px rgba(0,0,0, 0.25);
-}
-
     /* 3 paragraphes conditionnels */
 
 #conditions p{
@@ -841,6 +845,19 @@ abbr[title], abbr[data-original-title] {
   background-color: #fff;
   padding: 70px 30px;
 }
+
+}
+
+/* Large devices (desktops, 1200px and up) */
+@media (min-width:1200px) {
+
+/* ##### Section principale ##### */
+
+  /* photo */
+
+  #img_adep{
+    margin-top: 80px;
+  }
 
 }
 /* ==========================================================================

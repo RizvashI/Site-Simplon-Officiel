@@ -612,7 +612,6 @@ width: 40%;
   float: right;
   color: #fff;
   border-radius: 2px;
-  box-shadow: 0 5px 10px rgba(0,0,0, 0.25);
   background-color: rgba(0, 0, 0, 0.35);
   padding: 10px;
 }
@@ -755,7 +754,6 @@ abbr[title], abbr[data-original-title] {
     display: block;
     width: 200px;
     border-radius: 2px;
-    box-shadow: 0 5px 10px rgba(0,0,0, 0.25);
     background-color: rgba(0, 0, 0, 0.35);
     float: none;
     padding: 10px;
@@ -917,7 +915,7 @@ abbr[title], abbr[data-original-title] {
  */
 
 .hidden {
-    display: none !important;
+    display: none !important; 
 }
 
 /*

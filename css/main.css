@@ -128,6 +128,7 @@ nav .navbar-header {
    font-family: 'Josefin sans', serif;
 }
 .navbar-toggle{
+  transition : all 0.9s ease;
     padding: 10px;
     margin-top: 8px;
     border: 0px;
@@ -144,6 +145,7 @@ nav .navbar-header {
 }
 nav button {
     color: white;
+    box-shadow: none;
 }
 #monmenu ul {
     transition:all 0.5s ease;
@@ -185,45 +187,61 @@ nav .container.sticky {
     margin-left: 2%;
 }
 
+@media screen and (max-width: 444px){
+  #logo1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 307px){
+  #logo1 {
+display: none;
+  }
+}
 /* =====================================   Carousel settings ================================== */
 
 header {
 width: 100%;
 margin-top: 70px;
+background-size: cover;
 }
-
 .slider .indicators {
     margin-top: -2%;
     z-index: 1003;
 }
 #text1 {
+    border: 1px solid white;
     border-radius: 5%;
     width: 22%;
     background-color: rgba(175,157,108,0.9);
     padding: 2%;
 }
 #text2 {
+        border: 1px solid white;
     width: 22%;
     border-radius: 5%;
     background-color: rgba(19,35,45,0.9);
     padding: 2%;
 }
 #text3 {
+        border: 1px solid white;
     width: 22%;
     border-radius: 5%;
     background-color: rgba(251,185,201,0.9);
     padding: 2%;
 }
 #text4 {
+        border: 1px solid white;
     width: 22%;
     border-radius: 5%;
     background-color: rgba(46,45,45,0.9);
     padding: 2%;
 }
-header {
-    background-size: cover;
-}
 
+@media screen and (max-width: 600px) {
+  .slider {
+    display: none;
+  }
+}
 /* ==========================================  Content  ======================================== */
 
 #contentrow {
@@ -235,11 +253,12 @@ header {
     font-weight: bold;
 }
 #contentrow p{
-    line-height: 35px;
+    line-height: 30px;
     font-size: 1.2em;
 }
 #texte1 h2{
     padding-bottom: 5%;
+    margin-top: 10%;
 }
 #contentrow{
     margin-right: 0;
@@ -262,9 +281,6 @@ iframe {
 #texte3 {
     margin-top: 5%;
 }
-#soustexte3 {
-    margin-left: -2%;
-}
 #soustexte3 h2{
     opacity: 0.7;
 }
@@ -272,11 +288,18 @@ iframe {
     opacity: 0.7;
 }
 #logo3 {
-    width: 100%;
+    width: 139%;
 }
 #logo33 {
     margin-top: 10%;
 }
+
+@media screen and (max-width: 990px) {
+  #logo3 {
+    display: none;
+  }
+}
+
 /* ------------   Page Simplon general ------------- */
 
 .imgbody{

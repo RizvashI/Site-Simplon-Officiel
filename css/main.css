@@ -659,6 +659,13 @@ abbr[title], abbr[data-original-title] {
 
 #medialab a{
   margin-top: 30px;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0);
+}
+
+#medialab a:hover{
+  background-color: rgba(0,0,0,0.2);
 }
 
 /* ##########   Section Partenaires   ########## */
@@ -764,6 +771,17 @@ abbr[title], abbr[data-original-title] {
     padding: 25px 40px 80px 40px;;
   }
 
+  #medialab a{
+    margin-top: 30px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0);
+  }
+
+  #medialab a:hover{
+    background-color: rgba(0,0,0,0.2);
+  }
+
 
   /* ##########   Section Partenaires   ########## */
 
@@ -853,7 +871,15 @@ abbr[title], abbr[data-original-title] {
   display: block;
   width: 250px;
   text-align: center;
+  margin-top: 30px;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0);
   margin-right: 40px;
+}
+
+#medialab a:hover{
+  background-color: rgba(0,0,0,0.2);
 }
 
 /* ##########   Section Partenaires   ########## */

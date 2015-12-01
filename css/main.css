@@ -236,7 +236,9 @@ background-size: cover;
     background-color: rgba(46,45,45,0.9);
     padding: 2%;
 }
-
+test {
+  lol
+}
 @media screen and (max-width: 600px) {
   .slider {
     display: none;

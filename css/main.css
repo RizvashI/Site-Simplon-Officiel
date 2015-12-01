@@ -730,7 +730,7 @@ abbr[title], abbr[data-original-title] {
       border-radius: 3px;
       border: 1px solid rgba(0,0,0, 0.15);
       padding: 45px 20px;
-      box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+      box-shadow: 0 0 15px rgba(0,0,0, 0.2);
       background-color: #fff;
       margin-top: 50px;
       margin-bottom: 80px;
@@ -833,15 +833,6 @@ abbr[title], abbr[data-original-title] {
       text-align: center;
     }
 
-#conditions{
-        border-radius: 3px;
-        border: 1px solid rgba(0,0,0, 0.15);
-        padding: 45px 0;
-        box-shadow: 0 0 10px rgba(0,0,0, 0.1);
-        background-color: #fff;
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
 
 
 #medialab{

@@ -713,6 +713,15 @@ abbr[title], abbr[data-original-title] {
 
   /* ##########   Section principale   ########## */
 
+header{
+  background-image: url(../img/footer-blue.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 300px;
+}
+
   /* titres */
 
   #section_principale h1{

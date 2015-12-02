@@ -107,7 +107,7 @@ body{
     margin-top: -6%;
     margin-left: 15%;
 }
-nav .container{
+#containeracc{
     transition:all 0.4s ease;
    font-family: 'Josefin sans', serif;
     width: 100%;
@@ -164,7 +164,7 @@ nav button {
     transition: all 0.9s ease;
     opacity: 1;
 }
-nav .container.sticky {
+#containeracc.sticky {
    font-family: 'Josefin sans', serif;
     width: 100%;
     background-color: #34495E;

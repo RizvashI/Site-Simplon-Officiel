@@ -5075,10 +5075,6 @@ nav ul a span.badge {
   .section.no-pad-top {
     padding-top: 0; }
 
-.row {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px; }
   .row:after {
     content: "";
     display: table;

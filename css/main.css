@@ -112,7 +112,7 @@ body{
 }
 #containeracc{
     transition:all 0.9s ease;
-      font-family: 'Josefin-sans', serif;
+      font-family: 'Josefin sans', serif;
     width: 100%;
     background-color: white;
     font-size: 1.6em;
@@ -128,7 +128,7 @@ body{
 }
 
 nav .navbar-header {
-      font-family: 'Josefin-sans', serif;
+      font-family: 'Josefin sans', serif;
 }
 .navbar-toggle{
   transition : all 0.9s ease;

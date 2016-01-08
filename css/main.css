@@ -104,21 +104,21 @@ body{
 #logo1{
     transition:all 0.9s ease;
     width: 150px;
-    margin-top: -6%;
+    margin-top: -5%;
     margin-left: 15%;
 }
 #containeracc{
-    transition:all 0.4s ease;
+    transition:all 0.9s ease;
    font-family: 'Josefin sans', serif;
     width: 100%;
-    background-color: #34495E;
-    font-size: 1.4em;
+    background-color: white;
+    font-size: 1.6em;
     height: 70px;
     opacity: 1;
     padding-top: 0%;
 }
 .navbar-collapse {
-    background-color: #34495E;
+    background-color: white;
 }
 .navbar-collapse a{
     text-align: center;
@@ -141,10 +141,10 @@ nav .navbar-header {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #34495E;
+    background-color: white;
 }
 nav button {
-    color: white;
+    color: black;
     box-shadow: none;
 }
 #monmenu ul {
@@ -152,22 +152,22 @@ nav button {
     margin-top: 2%;
 }
 #monmenu li a{
-    transition:all 0.3s ease;
-    color: rgba(255,255,255,0.8);
+    transition:all 0.5s ease;
+    color: black;
 }
 #monmenu a:hover{
-    color: white;
+    color: grey;
     opacity: 1;
 }
 #mainmenu{
-    background-color: #34495E;
+	box-shadow: 0px 1px 5px gray;
+    background-color: white;
     transition: all 0.9s ease;
     opacity: 1;
 }
 #containeracc.sticky {
    font-family: 'Josefin sans', serif;
     width: 100%;
-    background-color: #34495E;
     height: 50px;
     padding-top: 0%;
 }
@@ -179,7 +179,7 @@ nav button {
 }
 #logo1.sticky{
     width: 125px;
-    margin-top: -12%;
+    margin-top: -8%;
     margin-left: 2%;
 }
 

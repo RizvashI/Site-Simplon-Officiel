@@ -7,7 +7,7 @@ $(document).ready(function(){
     $('.modal-trigger').leanModal();
   });
           
-          $(window).scroll(function() {
+          $(document).scroll(function() {
 if ($(this).scrollTop() > 120){  
     $('.container').addClass("sticky");
   }

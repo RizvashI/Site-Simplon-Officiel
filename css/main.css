@@ -476,8 +476,6 @@ button{
   margin-top: 7%;
   background-color:red;
 }
-=======
->>>>>>> 406ff1f3dc6529ae58f9f1237dde73c81860c6d0
 
 @media screen and (width: 768px) {
 #info_perso{
@@ -545,14 +543,21 @@ width: 40%;
 
 /* ##########   Section principale   ########## */
 
-#section_principale{
+/* suppression des pointillés lors du clic dans toutes les pages */
+a:focus{
+  outline: 0;
+}
+
+
+
+.section_principale{
   margin-top: 90px;
   padding-bottom: 80px;
 }
 
 /* titres */
 
-#section_principale h1{
+.section_principale h1{
   font-size: 1.5em;
   margin-top: 65px;
   margin-bottom: 30px;
@@ -561,7 +566,7 @@ width: 40%;
 
 /* paragraphes */
 
-#section_principale p{
+.section_principale p{
   font-size: 1.2em;
   text-indent: 20px;
   text-align: justify;
@@ -570,21 +575,37 @@ width: 40%;
 
 /* Liens */
 
-#section_principale a{
+.section_principale a{
   margin-top: 30px;
 }
 
 /* 3 paragraphes conditionnels */
 
-#conditions p{
+.conditions p{
   line-height: 20px;;
   text-align: center;
 }
 
-#conditions{
+.conditions{
     margin-top: 40px;
     margin-bottom: 40px;
     padding: 20px 0;
+}
+
+/* logos des conditions */
+
+.conditions img{
+  display: block;
+  width: 100px;
+  margin: auto;
+}
+
+.conditions .alignement-droite {
+  text-align: right;
+}
+
+.conditions .alignement-gauche {
+  text-align: left;
 }
 
 #lien_adep{
@@ -620,7 +641,7 @@ abbr[title], abbr[data-original-title] {
 
 /* Media Lab */
 
-#medialab{
+.medialab {
   color: #fff;
   background-color: rgba(227, 19, 71, 0.85);
   margin-top: 150px;
@@ -628,12 +649,12 @@ abbr[title], abbr[data-original-title] {
   border-radius: 2px;
 }
 
-#medialab h2{
+.medialab h2{
   font-size: 1.6em;
   margin-bottom: 60px;
     }
 
-#medialab p{
+.medialab p{
   font-size: 1.2em;
   line-height: 30px;
 }
@@ -652,30 +673,25 @@ abbr[title], abbr[data-original-title] {
 }
 
 #lien_medialab:hover{
+  color: #fff;
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0.15);
 }
 
 /* ##########   Section Partenaires   ########## */
 
-#partenaires_adep{
+.partenaires_adep{
   background-color: #fff;
   padding: 50px 30px;
 }
 
-#partenaires_adep h2{
+.partenaires_adep h2{
   margin-bottom: 80px;
   font-size: 2em;
 }
 
-#partenaires_adep img{
+.partenaires_adep img{
   padding: 10%;
-}
-
-/* ##########   Footer   ########## */
-
-#footer_adep{
-  box-shadow: 0 -6px 8px rgba(0, 0, 0, 0.35);
 }
 
 
@@ -690,7 +706,7 @@ abbr[title], abbr[data-original-title] {
 
 /* ##########   Header   ########## */
 
-#header_adep{
+.header_adep{
   background-image: url(../img/footer-red.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -703,7 +719,7 @@ abbr[title], abbr[data-original-title] {
 
   /* titres */
 
-  #section_principale h1{
+  .section_principale h1{
     font-size: 2em;
     margin-bottom: 30px;
     text-align: center;
@@ -711,7 +727,7 @@ abbr[title], abbr[data-original-title] {
 
   /* paragraphes */
 
-  #section_principale p{
+  .section_principale p{
     font-size: 1.15em;
     text-indent: 20px;
     text-align: justify;
@@ -720,21 +736,25 @@ abbr[title], abbr[data-original-title] {
 
   /* photo */
 
-  #img_adep{
+  .img_adep{
     margin-top: 50px;
     margin-bottom: 100px;
   }
 
   /* 3 paragraphes conditionnels */
 
-  #conditions p{
+  .conditions p{
     font-size: 1.1em;
     text-align: center;
   }
 
-  #conditions{
+  .conditions{
       margin-bottom: 60px;
       font-size: 1.1em;
+  }
+
+  .conditions img{
+    width: 150px;
   }
 
   .paragraphes{
@@ -743,7 +763,7 @@ abbr[title], abbr[data-original-title] {
 
 /* boutons liens */
 
-  #section_principale a{
+  .section_principale a{
     margin: 60px auto 0 auto;
     text-align: center;
     display: block;
@@ -753,12 +773,12 @@ abbr[title], abbr[data-original-title] {
 
 /* ##########   Section MediaLab   ########## */
 
-  #medialab h2{
+  .medialab h2{
     font-size: 1.7em;
   }
 
 
-  #partenaires_adep img{
+  .partenaires_adep img{
     padding: 8%;
   }
 }
@@ -775,12 +795,12 @@ abbr[title], abbr[data-original-title] {
 
   /* ##########   Section principale   ########## */
 
-  #section_principale{
+  .section_principale{
     margin-top: 90px;
     padding-bottom: 80px;
   }
 
-  #section_principale p{
+  .section_principale p{
     font-size: 1.25em;
     text-indent: 20px;
     text-align: justify;
@@ -789,7 +809,7 @@ abbr[title], abbr[data-original-title] {
     line-height: 28px;
   }
 
-  #section_principale h1{
+  .section_principale h1{
     margin-top: 30px;
     font-size: 2.3em;
     margin-bottom: 30px;
@@ -798,13 +818,19 @@ abbr[title], abbr[data-original-title] {
 
   /* Liens */
 
-  #section_principale a{
+  .section_principale a{
       margin: 80px auto 30px auto;
+  }
+
+  /* logos des conditions */
+
+  .conditions img{
+    width: 200px;
   }
 
 /* photo */
 
-#img_adep{
+.img_adep{
   margin-top: 170px;
 }
 
@@ -821,28 +847,28 @@ abbr[title], abbr[data-original-title] {
 
     /* 3 paragraphes conditionnels */
 
-#conditions p{
+.conditions p{
       font-size: 1.15em;
       text-align: center;
     }
 
-#conditions{
-        margin-top: 40px;
+.section_principale .conditions{
+        margin-top: 70px;
         margin-bottom: 40px;
     }
 
 
-#medialab{
+.medialab{
   margin-top: 50px;
   padding: 20px 0 40px 0;
 }
 
-#medialab h2{
+.medialab h2{
   font-size: 1.8em;
   margin-bottom: 60px;
     }
 
-#medialab p{
+.medialab p{
   font-size: 1.2em;
 }
 
@@ -855,17 +881,17 @@ abbr[title], abbr[data-original-title] {
 
 /* ##########   Section Partenaires   ########## */
 
-#partenaires_adep h2{
+.partenaires_adep h2{
   font-size: 3em;
   margin-bottom: 70px;
 }
 
-#partenaires_adep{
+.partenaires_adep{
   background-color: #fff;
   padding: 70px 30px;
 }
 
-#partenaires_adep img{
+.partenaires_adep img{
   padding: 3%;
 }
 
@@ -877,21 +903,21 @@ abbr[title], abbr[data-original-title] {
 /* Large devices (desktops, 1200px and up) */
 @media (min-width:1200px) {
 
-  #section_principale h1{
+.section_principale h1{
 margin-top: 50px;
   }
 
-#conditions{
+.section_principale .conditions{
   margin-top: 0;
 }
 
 /* photo */
 
-#img_adep{
+.img_adep{
   margin-top: 80px;
 }
 
-#partenaires_adep img{
+.partenaires_adep img{
   padding: 2%;
 }
 

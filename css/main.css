@@ -478,6 +478,42 @@ footer .row {
      background-color: rgb(0, 227, 166);
      height: 5em;
  }
+#troncommun {
+    background-color: rgb(24, 0, 55);
+    height: 40%;
+
+}
+#developpement {
+    background-color: rgb(24, 0, 55);
+    height: 40%;
+
+}
+#projet {
+    background-color: rgb(24, 0, 55);
+    height: 40%;
+
+}
+.objectif li {
+    list-style-type: disc;
+
+}
+
+ @media screen and (width: 320px) {
+.imgbody{
+     display: none;
+}
+.schemaformation {
+       display: none;
+}
+.objectif {
+    display: none;
+}
+.collapsible-body p {
+    font-size: 0,2em;
+}
+
+ }
+
 /* #######################################################################################################
 #####################################          PAGE CONTACT           #######################################
 ####################################################################################################### */
@@ -541,11 +577,6 @@ width: 40%;
     margin-top: 30%;
   }
 }
-
-
-
-
-
 
 @media screen and (max-width: 990px) {
     hr{

@@ -2,12 +2,11 @@
 # The humans responsible & technology colophon
 
 # TEAM
-
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+/*sabrina / www.coloredcloud.fr*/
+/*Othman*/
+/*Thierry*/
+/*Thanh*/
+/*Alexis*/
 
 # TECHNOLOGY COLOPHON
 

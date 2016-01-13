@@ -499,6 +499,9 @@ footer .row {
     list-style-type: disc;
 
 }
+.imgbanner {
+    width: 100%;
+}
 /*------les blocs colores du cursus -----*/
 .grid {
 	padding: 20px 20px 100px 20px;

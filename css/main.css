@@ -95,7 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body{
-    background-color: #F5F5F5;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -256,11 +256,7 @@ background-size: cover;
 }
 #contentrow p{
     line-height: 30px;
-    font-size: 1.2em;
-}
-#texte1 h2{
-    padding-bottom: 5%;
-    margin-top: 10%;
+    font-size: 1.3em;
 }
 #contentrow{
     margin-right: 0;
@@ -283,19 +279,33 @@ iframe {
 #texte3 {
     margin-top: 5%;
 }
+#soustexte3 {
+	margin-left: 3%;
+}
 #soustexte3 h2{
     opacity: 0.7;
+}
+#soustexte4 {
+	margin-left: 3%;
 }
 #soustexte4 h2{
     opacity: 0.7;
 }
-#logo3 {
-    width: 139%;
-}
-#logo33 {
+#titre1 {
+	width: 50%;
+	padding-bottom: 7%;
     margin-top: 10%;
 }
-
+#sponsor{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	box-shadow: 0px 1px 5px blue;
+	background-color: #E6E6E6;
+}
+#sponsor img {
+	padding-right: 3%;
+	width: 17%;
+}
 @media screen and (max-width: 990px) {
   #logo3 {
     display: none;
@@ -533,7 +543,8 @@ footer .row {
 
 .grid figcaption {
 	position: absolute;
-	top: 0;
+    width: 100%;
+	top: 66%;
 	left: 0;
 	padding: 20px;
 	background: #2c3f52;
@@ -547,15 +558,18 @@ footer .row {
 }
 
 .grid figcaption span:before {
-	content: 'by ';
+	content: '';
 }
 
 .grid figcaption a {
+    width: 70px;
+    height: 40px;
 	text-align: center;
-	padding: 5px 10px;
+	padding: 6px 10px;
 	border-radius: 2px;
 	display: inline-block;
 	background: #ed4e6e;
+    font-size: 1.4em;
 	color: #fff;
 }
 
@@ -565,22 +579,28 @@ footer .row {
 .cs-style-3 figure {
 	overflow: hidden;
 }
+.cs-style-3 figcaption a {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
 
-.cs-style-3 figure img {
+
+/*.cs-style-3 figure img {
 	-webkit-transition: -webkit-transform 0.4s;
 	-moz-transition: -moz-transform 0.4s;
 	transition: transform 0.4s;
-}
+}*/
 
-.no-touch .cs-style-3 figure:hover img,
+/*.no-touch .cs-style-3 figure:hover img,
 .cs-style-3 figure.cs-hover img {
 	-webkit-transform: translateY(-50px);
 	-moz-transform: translateY(-50px);
 	-ms-transform: translateY(-50px);
 	transform: translateY(-50px);
-}
+}*/
 
-.cs-style-3 figcaption {
+/*.cs-style-3 figcaption {
 	height: 100px;
 	width: 100%;
 	top: auto;
@@ -593,9 +613,9 @@ footer .row {
 	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
 	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
 	transition: transform 0.4s, opacity 0.1s 0.3s;
-}
+}*/
 
-.no-touch .cs-style-3 figure:hover figcaption,
+/*.no-touch .cs-style-3 figure:hover figcaption,
 .cs-style-3 figure.cs-hover figcaption {
 	opacity: 1;
 	-webkit-transform: translateY(0px);
@@ -605,13 +625,8 @@ footer .row {
 	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
 	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
 	transition: transform 0.4s, opacity 0.1s;
-}
+}*/
 
-.cs-style-3 figcaption a {
-	position: absolute;
-	bottom: 20px;
-	right: 20px;
-}
 
 
 @media screen and (max-width: 31.5em) {
@@ -623,6 +638,7 @@ footer .row {
 		min-width: 300px;
 	}
 }/*------fin blocs colores du cursus -----*/
+
 
  @media screen and (width: 320px) {
 .imgbody{

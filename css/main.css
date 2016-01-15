@@ -256,11 +256,7 @@ background-size: cover;
 }
 #contentrow p{
     line-height: 30px;
-    font-size: 1.2em;
-}
-#texte1 h2{
-    padding-bottom: 5%;
-    margin-top: 10%;
+    font-size: 1.3em;
 }
 #contentrow{
     margin-right: 0;
@@ -289,10 +285,10 @@ iframe {
 #soustexte4 h2{
     opacity: 0.7;
 }
-#logo3 {
-    width: 139%;
-}
-#logo33 {
+
+#titre1 {
+	width: 50%;
+	padding-bottom: 7%;
     margin-top: 10%;
 }
 

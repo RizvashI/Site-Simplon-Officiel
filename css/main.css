@@ -277,21 +277,36 @@ iframe {
     margin-top: 5%;
 }
 #texte3 {
+	text-align: justify;
     margin-top: 5%;
+}
+#soustexte3 {
+	margin-left: 3%;
 }
 #soustexte3 h2{
     opacity: 0.7;
 }
+#soustexte4 {
+	margin-left: 3%;
+}
 #soustexte4 h2{
     opacity: 0.7;
 }
-
 #titre1 {
 	width: 50%;
 	padding-bottom: 7%;
     margin-top: 10%;
 }
-
+#sponsor{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	box-shadow: 0px 1px 5px blue;
+	background-color: #E6E6E6;
+}
+#sponsor img {
+	padding-right: 3%;
+	width: 17%;
+}
 @media screen and (max-width: 990px) {
   #logo3 {
     display: none;

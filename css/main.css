@@ -513,8 +513,17 @@ footer .row {
     list-style-type: disc;
 
 }
-.imgbanner {
+header {
+background-image: url(../img/banner_cursus.png);
+background-repeat: no-repeat;
+background-size: cover;
+height: 250px;
+}
+/*.imgbanner {
     width: 100%;
+}*/
+p {
+    text-align: justify;
 }
 /*------les blocs colores du cursus -----*/
 .grid {

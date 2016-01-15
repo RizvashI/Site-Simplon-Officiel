@@ -256,11 +256,7 @@ background-size: cover;
 }
 #contentrow p{
     line-height: 30px;
-    font-size: 1.2em;
-}
-#texte1 h2{
-    padding-bottom: 5%;
-    margin-top: 10%;
+    font-size: 1.3em;
 }
 #contentrow{
     margin-right: 0;
@@ -281,21 +277,36 @@ iframe {
     margin-top: 5%;
 }
 #texte3 {
+	text-align: justify;
     margin-top: 5%;
+}
+#soustexte3 {
+	margin-left: 3%;
 }
 #soustexte3 h2{
     opacity: 0.7;
 }
+#soustexte4 {
+	margin-left: 3%;
+}
 #soustexte4 h2{
     opacity: 0.7;
 }
-#logo3 {
-    width: 139%;
-}
-#logo33 {
+#titre1 {
+	width: 50%;
+	padding-bottom: 7%;
     margin-top: 10%;
 }
-
+#sponsor{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	box-shadow: 0px 1px 5px blue;
+	background-color: #E6E6E6;
+}
+#sponsor img {
+	padding-right: 3%;
+	width: 17%;
+}
 @media screen and (max-width: 990px) {
   #logo3 {
     display: none;

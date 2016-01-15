@@ -95,7 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body{
-    background-color: #F5F5F5;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -277,7 +277,6 @@ iframe {
     margin-top: 5%;
 }
 #texte3 {
-	text-align: justify;
     margin-top: 5%;
 }
 #soustexte3 {

@@ -8,6 +8,8 @@
 /*Thanh*/
 /*Alexis*/
 
+<a href="http://www.freepik.com">Designed by Freepik</a>
+
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5

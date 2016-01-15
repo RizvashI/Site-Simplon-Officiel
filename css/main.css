@@ -465,7 +465,7 @@ footer .row {
     margin-bottom: 10px;
 }
 
-/* #######################################################################################################
+#######################################################################################################
 #####################################          PAGE CURSUS          #######################################
 ######################################################################################################## */
 .containercursus {
@@ -515,7 +515,7 @@ footer .row {
     list-style-type: disc;
 
 }
-header {
+.bancursus {
 background-image: url(../img/banner_cursus.png);
 background-repeat: no-repeat;
 background-size: cover;
@@ -637,7 +637,8 @@ h1 {
  }
  @media screen and (max-width: 800px) {
 
-     header {
+
+     .bancursus {
      background-image: url(../img/banner_cursus_resp.png);
      background-repeat: no-repeat;
      background-size: cover;

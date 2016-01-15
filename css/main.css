@@ -287,8 +287,16 @@ iframe {
 #soustexte4 h2{
     opacity: 0.7;
 }
-#logo3 {
-    width: 139%;
+#titre1 {
+	width: 50%;
+	padding-bottom: 7%;
+    margin-top: 10%;
+}
+#sponsor{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	box-shadow: 0px 1px 5px black;
+	background-color: #E6E6E6;
 }
 #logo33 {
     margin-top: 10%;

@@ -95,7 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body{
-    background-color: white;
+    background-color: #F5F5F5;
     margin: 0;
     padding: 0;
 }
@@ -200,7 +200,6 @@ display: none;
   }
 }
 /* =====================================   Carousel settings ================================== */
-
 header {
 width: 100%;
 margin-top: 70px;
@@ -277,6 +276,7 @@ iframe {
     margin-top: 5%;
 }
 #texte3 {
+	text-align: justify;
     margin-top: 5%;
 }
 #soustexte3 {
@@ -285,11 +285,14 @@ iframe {
 #soustexte3 h2{
     opacity: 0.7;
 }
-#soustexte4 {
-	margin-left: 3%;
+#soustexte3 p{
+	font-size: 1.1em;
 }
 #soustexte4 h2{
     opacity: 0.7;
+}
+#soustexte4 p{
+	font-size: 1.1em;
 }
 #titre1 {
 	width: 50%;
@@ -462,7 +465,7 @@ footer .row {
     margin-bottom: 10px;
 }
 
-/* #######################################################################################################
+#######################################################################################################
 #####################################          PAGE CURSUS          #######################################
 ######################################################################################################## */
 .containercursus {
@@ -472,6 +475,9 @@ footer .row {
 .firstcol span {
     color: #ff5a59;
     font-weight: bold;
+}
+.banner {
+    clear: both;
 }
 
 .material-icons { /*------- couleurs des petites icones en debut de btn ----- */
@@ -509,8 +515,15 @@ footer .row {
     list-style-type: disc;
 
 }
-.imgbanner {
-    width: 100%;
+.bancursus {
+background-image: url(../img/banner_cursus.png);
+background-repeat: no-repeat;
+background-size: cover;
+height: 250px;
+}
+
+p {
+    text-align: justify;
 }
 /*------les blocs colores du cursus -----*/
 .grid {
@@ -524,7 +537,6 @@ footer .row {
 .grid li {
 	display: inline-block;
 	width: 350px;
-	margin: 0;
 	padding: 5px;
 	text-align: left;
 	position: relative;
@@ -557,9 +569,9 @@ footer .row {
 	color: #fff;
 }
 
-.grid figcaption span:before {
+/*.grid figcaption span:before {
 	content: '';
-}
+}*/
 
 .grid figcaption a {
     width: 70px;
@@ -586,61 +598,19 @@ footer .row {
 }
 
 
-/*.cs-style-3 figure img {
-	-webkit-transition: -webkit-transform 0.4s;
-	-moz-transition: -moz-transform 0.4s;
-	transition: transform 0.4s;
-}*/
-
-/*.no-touch .cs-style-3 figure:hover img,
-.cs-style-3 figure.cs-hover img {
-	-webkit-transform: translateY(-50px);
-	-moz-transform: translateY(-50px);
-	-ms-transform: translateY(-50px);
-	transform: translateY(-50px);
-}*/
-
-/*.cs-style-3 figcaption {
-	height: 100px;
-	width: 100%;
-	top: auto;
-	bottom: 0;
-	opacity: 0;
-	-webkit-transform: translateY(100%);
-	-moz-transform: translateY(100%);
-	-ms-transform: translateY(100%);
-	transform: translateY(100%);
-	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
-	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
-	transition: transform 0.4s, opacity 0.1s 0.3s;
-}*/
-
-/*.no-touch .cs-style-3 figure:hover figcaption,
-.cs-style-3 figure.cs-hover figcaption {
-	opacity: 1;
-	-webkit-transform: translateY(0px);
-	-moz-transform: translateY(0px);
-	-ms-transform: translateY(0px);
-	transform: translateY(0px);
-	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
-	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
-	transition: transform 0.4s, opacity 0.1s;
-}*/
-
-
-
 @media screen and (max-width: 31.5em) {
 	.grid {
-		padding: 10px 10px 100px 10px;
+		padding: 6px 0px 100px;
 	}
 	.grid li {
 		width: 100%;
 		min-width: 300px;
 	}
+
 }/*------fin blocs colores du cursus -----*/
 
 
- @media screen and (width: 320px) {
+ @media screen and (max-width: 601px) {
 .imgbody{
      display: none;
 }
@@ -656,8 +626,26 @@ footer .row {
 .imgbanner {
     display: none;
 }
- }
+p {
+    font-size: 0.9em;
+    margin-left: 3%;
+}
+h1 {
+    font-size: 2em;
+}
 
+ }
+ @media screen and (max-width: 800px) {
+
+
+     .bancursus {
+     background-image: url(../img/banner_cursus_resp.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 250px;
+     }
+
+ }
 /* #######################################################################################################
 #####################################          PAGE CONTACT           #######################################
 ####################################################################################################### */
@@ -784,7 +772,6 @@ a:focus{
 
 
 .section_principale{
-  font-family: 'Josefin sans', sans-serif;
   margin-top: 90px;
   padding-bottom: 80px;
 }

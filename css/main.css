@@ -467,7 +467,7 @@ footer .row {
 }
 
 /* #######################################################################################################
-#####################################          PAGE CURSUS  #######################################
+#####################################          PAGE CURSUS          #######################################
 ######################################################################################################## */
 .containercursus {
     margin-top: 60px;
@@ -543,6 +543,62 @@ p {
 	position: relative;
 }
 
+.grid figure {
+	margin: 0;
+	position: relative;
+}
+
+.grid figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+.grid figcaption {
+	position: absolute;
+    width: 100%;
+	top: 66%;
+	left: 0;
+	padding: 20px;
+	background: #2c3f52;
+	color: #ed4e6e;
+}
+
+.grid figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+/*.grid figcaption span:before {
+	content: '';
+}*/
+
+.grid figcaption a {
+    width: 70px;
+    height: 40px;
+	text-align: center;
+	padding: 6px 10px;
+	border-radius: 2px;
+	display: inline-block;
+	background: #ed4e6e;
+    font-size: 1.4em;
+	color: #fff;
+}
+
+/* Individual Caption Styles */
+
+/* Caption Style 3 */
+.cs-style-3 figure {
+	overflow: hidden;
+}
+.cs-style-3 figcaption a {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+
 @media screen and (max-width: 31.5em) {
 	.grid {
 		padding: 6px 0px 100px;
@@ -551,9 +607,6 @@ p {
 		width: 100%;
 		min-width: 300px;
 	}
-    header {
-    display: none;
-    }
 
 }/*------fin blocs colores du cursus -----*/
 
@@ -586,14 +639,13 @@ h1 {
  @media screen and (max-width: 800px) {
 
      header {
-     background-image: url(../img/banner_cursus_res.png);
+     background-image: url(../img/banner_cursus_resp.png);
      background-repeat: no-repeat;
      background-size: cover;
      height: 250px;
      }
 
  }
-
 /* #######################################################################################################
 #####################################          PAGE CONTACT  #######################################
 ####################################################################################################### */

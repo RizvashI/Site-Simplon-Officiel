@@ -102,22 +102,23 @@ body{
 
 /* ===========================================   NAVBAR  ========================================= */
 #logo1{
-    transition:all 0.5s ease;
+    transition:all 0.9s ease;
     width: 150px;
     margin-top: -5%;
     margin-left: 15%;
 }
+.pages {
+	border-bottom: 2px solid black;
+}
 #containeracc{
-    transition:all 0.5s ease;
-   font-family: 'Josefin sans', serif;
+    transition:all 0.9s ease;
+      font-family: 'Josefin sans', serif;
     width: 100%;
     background-color: white;
     font-size: 1.6em;
     height: 70px;
     opacity: 1;
     padding-top: 0%;
-    padding-left: 0px;
-    padding-right: 0px;
 }
 .navbar-collapse {
     background-color: white;
@@ -127,10 +128,10 @@ body{
 }
 
 nav .navbar-header {
-   font-family: 'Josefin sans', serif;
+      font-family: 'Josefin sans', serif;
 }
 .navbar-toggle{
-  transition : all 0.5s ease;
+  transition : all 0.9s ease;
     padding: 10px;
     margin-top: 8px;
     border: 0px;
@@ -150,6 +151,7 @@ nav button {
     box-shadow: none;
 }
 #monmenu ul {
+    transition:all 0.5s ease;
     margin-top: 2%;
 }
 #monmenu li a{
@@ -163,11 +165,10 @@ nav button {
 #mainmenu{
 	box-shadow: 0px 1px 5px gray;
     background-color: white;
-    transition: all 0.5s ease;
+    transition: all 0.9s ease;
     opacity: 1;
 }
 #containeracc.sticky {
-   font-family: 'Josefin sans', serif;
     width: 100%;
     height: 50px;
     padding-top: 0%;
@@ -186,9 +187,6 @@ nav button {
 
 .row {
 	margin-right: 0px;
-}
-#useer {
-	margin-top: 1.5%;
 }
 
 @media screen and (max-width: 444px){
@@ -249,7 +247,7 @@ background-size: cover;
 /* ==========================================  Content  ======================================== */
 
 #contentrow {
-    font-family: 'Josefin sans', serif;
+    font-family: 'Josefin sans', sans-serif;
     margin-bottom: 5%;
 }
 #contentrow h2{
@@ -258,11 +256,7 @@ background-size: cover;
 }
 #contentrow p{
     line-height: 30px;
-    font-size: 1.2em;
-}
-#texte1 h2{
-    padding-bottom: 5%;
-    margin-top: 10%;
+    font-size: 1.3em;
 }
 #contentrow{
     margin-right: 0;
@@ -283,10 +277,17 @@ iframe {
     margin-top: 5%;
 }
 #texte3 {
+	text-align: justify;
     margin-top: 5%;
+}
+#soustexte3 {
+	margin-left: 3%;
 }
 #soustexte3 h2{
     opacity: 0.7;
+}
+#soustexte4 {
+	margin-left: 3%;
 }
 #soustexte4 h2{
     opacity: 0.7;
@@ -299,17 +300,13 @@ iframe {
 #sponsor{
 	padding-top: 3%;
 	padding-bottom: 3%;
-	box-shadow: 0px 1px 5px black;
+	box-shadow: 0px 1px 5px blue;
 	background-color: #E6E6E6;
 }
 #sponsor img {
-	width: 15%;
-	margin-left: 2%;
+	padding-right: 3%;
+	width: 17%;
 }
-#logo33 {
-    margin-top: 10%;
-}
-
 @media screen and (max-width: 990px) {
   #logo3 {
     display: none;
@@ -467,7 +464,7 @@ footer .row {
 }
 
 /* #######################################################################################################
-#####################################          PAGE CURSUS  #######################################
+#####################################          PAGE CURSUS          #######################################
 ######################################################################################################## */
 .containercursus {
     margin-top: 60px;
@@ -516,7 +513,7 @@ footer .row {
     list-style-type: disc;
 
 }
-header {
+.bancursus {
 background-image: url(../img/banner_cursus.png);
 background-repeat: no-repeat;
 background-size: cover;
@@ -543,6 +540,62 @@ p {
 	position: relative;
 }
 
+.grid figure {
+	margin: 0;
+	position: relative;
+}
+
+.grid figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+.grid figcaption {
+	position: absolute;
+    width: 100%;
+	top: 66%;
+	left: 0;
+	padding: 20px;
+	background: #2c3f52;
+	color: #ed4e6e;
+}
+
+.grid figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+/*.grid figcaption span:before {
+	content: '';
+}*/
+
+.grid figcaption a {
+    width: 70px;
+    height: 40px;
+	text-align: center;
+	padding: 6px 10px;
+	border-radius: 2px;
+	display: inline-block;
+	background: #ed4e6e;
+    font-size: 1.4em;
+	color: #fff;
+}
+
+/* Individual Caption Styles */
+
+/* Caption Style 3 */
+.cs-style-3 figure {
+	overflow: hidden;
+}
+.cs-style-3 figcaption a {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+
 @media screen and (max-width: 31.5em) {
 	.grid {
 		padding: 6px 0px 100px;
@@ -551,9 +604,6 @@ p {
 		width: 100%;
 		min-width: 300px;
 	}
-    header {
-    display: none;
-    }
 
 }/*------fin blocs colores du cursus -----*/
 
@@ -585,8 +635,8 @@ h1 {
  }
  @media screen and (max-width: 800px) {
 
-     header {
-     background-image: url(../img/banner_cursus_res.png);
+     .bancursus {
+     background-image: url(../img/banner_cursus_resp.png);
      background-repeat: no-repeat;
      background-size: cover;
      height: 250px;
@@ -595,74 +645,65 @@ h1 {
  }
 
 /* #######################################################################################################
-#####################################          PAGE CONTACT  #######################################
+#####################################          PAGE CONTACT           #######################################
 ####################################################################################################### */
 
-
-#banner_contact{
-  margin-top:5%;
-  width:100%;
-}
-
 #info_perso{
-margin-top: 2%;
-/*  margin-left: 4%;*/
- /*margin-right: 4%;*/
-    text-align: center;
+margin-top: 10%;
+  margin-left: 4%;
+  margin-right: 4%;
 }
+
 #info_mathieu{
   margin-top: 6%;
 }
 
-
-#hour{
-margin-top:15%;
-margin-left: 10%;
-font-size:1.3em;
-}
-
-#formul{
-  margin-top: 60%;
-}
-
 button{
-  margin-bottom:5%;
+  margin-bottom: 4%;
+}
+
+<<<<<<< HEAD
+#formu{
+  width: 70%;
+  margin-top: 7%;
+  background-color:red;
 }
 
 @media screen and (width: 768px) {
-  #my_map{
-    display: none;
-  }
 #info_perso{
-  text-align: center;
   margin-top: 10%;
-padding-left:20%;
+  border: 1px solid red;
+
 }
 #info_hachemi{
   border: 1px solid black;
-  width:40%;
+  width: 50%;
   padding-right: 30%;
   padding-top: 6%;
-
-}
 }
 
-*/
-@media screen and (max-width: 600px) {
-/*  #info_perso{
+#info_mathieu{
+  border: 1px solid black;
+
+width: 40%;
+}
+
+}
+
+@media screen and (width: 600px) {
+  #info_perso{
     padding-top: 15%;
     width: 40%;
     margin: auto;
     border: 1px solid black;
   }
-*/
-#my_map{
-  display: none;
-}
 }
 
-@media screen and (max-width: 320px) {
 
+@media screen and (width: 320px) {
+  #info_perso{
+    margin-top: 30%;
+  }
 }
 
 @media screen and (max-width: 990px) {
@@ -689,14 +730,21 @@ padding-left:20%;
 
 /* ##########   Section principale   ########## */
 
-#section_principale{
+/* suppression des pointillés lors du clic dans toutes les pages */
+a:focus{
+  outline: 0;
+}
+
+
+
+.section_principale{
   margin-top: 90px;
   padding-bottom: 80px;
 }
 
 /* titres */
 
-#section_principale h1{
+.section_principale h1{
   font-size: 1.5em;
   margin-top: 65px;
   margin-bottom: 30px;
@@ -705,7 +753,7 @@ padding-left:20%;
 
 /* paragraphes */
 
-#section_principale p{
+.section_principale p{
   font-size: 1.2em;
   text-indent: 20px;
   text-align: justify;
@@ -714,21 +762,37 @@ padding-left:20%;
 
 /* Liens */
 
-#section_principale a{
+.section_principale a{
   margin-top: 30px;
 }
 
 /* 3 paragraphes conditionnels */
 
-#conditions p{
+.conditions p{
   line-height: 20px;;
   text-align: center;
 }
 
-#conditions{
+.conditions{
     margin-top: 40px;
     margin-bottom: 40px;
     padding: 20px 0;
+}
+
+/* logos des conditions */
+
+.conditions img{
+  display: block;
+  width: 100px;
+  margin: auto;
+}
+
+.conditions .alignement-droite {
+  text-align: right;
+}
+
+.conditions .alignement-gauche {
+  text-align: left;
 }
 
 #lien_adep{
@@ -764,7 +828,7 @@ abbr[title], abbr[data-original-title] {
 
 /* Media Lab */
 
-#medialab{
+.medialab {
   color: #fff;
   background-color: rgba(227, 19, 71, 0.85);
   margin-top: 150px;
@@ -772,12 +836,12 @@ abbr[title], abbr[data-original-title] {
   border-radius: 2px;
 }
 
-#medialab h2{
+.medialab h2{
   font-size: 1.6em;
   margin-bottom: 60px;
     }
 
-#medialab p{
+.medialab p{
   font-size: 1.2em;
   line-height: 30px;
 }
@@ -796,31 +860,30 @@ abbr[title], abbr[data-original-title] {
 }
 
 #lien_medialab:hover{
+  color: #fff;
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0.15);
 }
 
 /* ##########   Section Partenaires   ########## */
 
-#partenaires_adep{
+.partenaires_adep{
   background-color: #fff;
   padding: 50px 30px;
 }
 
-#partenaires_adep h2{
+.partenaires_adep h2{
   margin-bottom: 80px;
   font-size: 2em;
 }
 
-#partenaires_adep img{
+.partenaires_adep img{
   padding: 10%;
 }
 
-/* ##########   Footer   ########## */
 
-#footer_adep{
-  box-shadow: 0 -6px 8px rgba(0, 0, 0, 0.35);
-}
+
+
 
 
 
@@ -830,7 +893,7 @@ abbr[title], abbr[data-original-title] {
 
 /* ##########   Header   ########## */
 
-#header_adep{
+.header_adep{
   background-image: url(../img/footer-red.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -843,7 +906,7 @@ abbr[title], abbr[data-original-title] {
 
   /* titres */
 
-  #section_principale h1{
+  .section_principale h1{
     font-size: 2em;
     margin-bottom: 30px;
     text-align: center;
@@ -851,7 +914,7 @@ abbr[title], abbr[data-original-title] {
 
   /* paragraphes */
 
-  #section_principale p{
+  .section_principale p{
     font-size: 1.15em;
     text-indent: 20px;
     text-align: justify;
@@ -860,21 +923,25 @@ abbr[title], abbr[data-original-title] {
 
   /* photo */
 
-  #img_adep{
+  .img_adep{
     margin-top: 50px;
     margin-bottom: 100px;
   }
 
   /* 3 paragraphes conditionnels */
 
-  #conditions p{
+  .conditions p{
     font-size: 1.1em;
     text-align: center;
   }
 
-  #conditions{
+  .conditions{
       margin-bottom: 60px;
       font-size: 1.1em;
+  }
+
+  .conditions img{
+    width: 150px;
   }
 
   .paragraphes{
@@ -883,7 +950,7 @@ abbr[title], abbr[data-original-title] {
 
 /* boutons liens */
 
-  #section_principale a{
+  .section_principale a{
     margin: 60px auto 0 auto;
     text-align: center;
     display: block;
@@ -893,12 +960,12 @@ abbr[title], abbr[data-original-title] {
 
 /* ##########   Section MediaLab   ########## */
 
-  #medialab h2{
+  .medialab h2{
     font-size: 1.7em;
   }
 
 
-  #partenaires_adep img{
+  .partenaires_adep img{
     padding: 8%;
   }
 }
@@ -915,12 +982,12 @@ abbr[title], abbr[data-original-title] {
 
   /* ##########   Section principale   ########## */
 
-  #section_principale{
+  .section_principale{
     margin-top: 90px;
     padding-bottom: 80px;
   }
 
-  #section_principale p{
+  .section_principale p{
     font-size: 1.25em;
     text-indent: 20px;
     text-align: justify;
@@ -929,7 +996,7 @@ abbr[title], abbr[data-original-title] {
     line-height: 28px;
   }
 
-  #section_principale h1{
+  .section_principale h1{
     margin-top: 30px;
     font-size: 2.3em;
     margin-bottom: 30px;
@@ -938,13 +1005,19 @@ abbr[title], abbr[data-original-title] {
 
   /* Liens */
 
-  #section_principale a{
+  .section_principale a{
       margin: 80px auto 30px auto;
+  }
+
+  /* logos des conditions */
+
+  .conditions img{
+    width: 200px;
   }
 
 /* photo */
 
-#img_adep{
+.img_adep{
   margin-top: 170px;
 }
 
@@ -961,28 +1034,28 @@ abbr[title], abbr[data-original-title] {
 
     /* 3 paragraphes conditionnels */
 
-#conditions p{
+.conditions p{
       font-size: 1.15em;
       text-align: center;
     }
 
-#conditions{
-        margin-top: 40px;
+.section_principale .conditions{
+        margin-top: 70px;
         margin-bottom: 40px;
     }
 
 
-#medialab{
+.medialab{
   margin-top: 50px;
   padding: 20px 0 40px 0;
 }
 
-#medialab h2{
+.medialab h2{
   font-size: 1.8em;
   margin-bottom: 60px;
     }
 
-#medialab p{
+.medialab p{
   font-size: 1.2em;
 }
 
@@ -995,17 +1068,17 @@ abbr[title], abbr[data-original-title] {
 
 /* ##########   Section Partenaires   ########## */
 
-#partenaires_adep h2{
+.partenaires_adep h2{
   font-size: 3em;
   margin-bottom: 70px;
 }
 
-#partenaires_adep{
+.partenaires_adep{
   background-color: #fff;
   padding: 70px 30px;
 }
 
-#partenaires_adep img{
+.partenaires_adep img{
   padding: 3%;
 }
 
@@ -1017,21 +1090,21 @@ abbr[title], abbr[data-original-title] {
 /* Large devices (desktops, 1200px and up) */
 @media (min-width:1200px) {
 
-  #section_principale h1{
+.section_principale h1{
 margin-top: 50px;
   }
 
-#conditions{
+.section_principale .conditions{
   margin-top: 0;
 }
 
 /* photo */
 
-#img_adep{
+.img_adep{
   margin-top: 80px;
 }
 
-#partenaires_adep img{
+.partenaires_adep img{
   padding: 2%;
 }
 

@@ -474,6 +474,10 @@ footer .row {
     color: #ff5a59;
     font-weight: bold;
 }
+.banner {
+    clear: both;
+    margin-top: 8%;
+}
 
 .material-icons { /*------- couleurs des petites icones en debut de btn ----- */
     color: #ff5a59;
@@ -586,7 +590,7 @@ footer .row {
 	right: 20px;
 }
 
-
+/*----over des blocs annule */
 /*.cs-style-3 figure img {
 	-webkit-transition: -webkit-transform 0.4s;
 	-moz-transition: -moz-transform 0.4s;
@@ -629,7 +633,6 @@ footer .row {
 }*/
 
 
-
 @media screen and (max-width: 31.5em) {
 	.grid {
 		padding: 10px 10px 100px 10px;
@@ -638,6 +641,10 @@ footer .row {
 		width: 100%;
 		min-width: 300px;
 	}
+    p {
+        font-size: 0.9em;
+    }
+
 }/*------fin blocs colores du cursus -----*/
 
 

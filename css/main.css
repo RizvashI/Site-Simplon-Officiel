@@ -288,8 +288,14 @@ iframe {
 #soustexte3 h2{
     opacity: 0.7;
 }
+#soustexte3 p{
+	font-size: 1.1em;
+}
 #soustexte4 h2{
     opacity: 0.7;
+}
+#soustexte4 p{
+	font-size: 1.1em;
 }
 #titre1 {
 	width: 50%;

@@ -475,6 +475,12 @@ button{
   margin-bottom: 4%;
 }
 
+#info_simplon{
+  margin-top: 30%;
+  font-size: 1.4em;
+  background-color: pink;
+}
+
 #hour{
 margin-top:15%;
 margin-left: 10%;

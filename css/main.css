@@ -198,7 +198,6 @@ display: none;
   }
 }
 /* =====================================   Carousel settings ================================== */
-
 header {
 width: 100%;
 margin-top: 70px;
@@ -275,6 +274,7 @@ iframe {
     margin-top: 5%;
 }
 #texte3 {
+	text-align: justify;
     margin-top: 5%;
 }
 #soustexte3 {
@@ -283,11 +283,14 @@ iframe {
 #soustexte3 h2{
     opacity: 0.7;
 }
-#soustexte4 {
-	margin-left: 3%;
+#soustexte3 p{
+	font-size: 1.1em;
 }
 #soustexte4 h2{
     opacity: 0.7;
+}
+#soustexte4 p{
+	font-size: 1.1em;
 }
 #titre1 {
 	width: 50%;
@@ -297,7 +300,7 @@ iframe {
 #sponsor{
 	padding-top: 3%;
 	padding-bottom: 3%;
-	box-shadow: 0px 1px 5px black;
+	box-shadow: 0px 1px 5px blue;
 	background-color: #E6E6E6;
 }
 #sponsor img {
@@ -460,7 +463,7 @@ footer .row {
     margin-bottom: 10px;
 }
 
-/* #######################################################################################################
+#######################################################################################################
 #####################################          PAGE CURSUS          #######################################
 ######################################################################################################## */
 .containercursus {
@@ -470,6 +473,9 @@ footer .row {
 .firstcol span {
     color: #ff5a59;
     font-weight: bold;
+}
+.banner {
+    clear: both;
 }
 
 .material-icons { /*------- couleurs des petites icones en debut de btn ----- */
@@ -507,8 +513,15 @@ footer .row {
     list-style-type: disc;
 
 }
-.imgbanner {
-    width: 100%;
+.bancursus {
+background-image: url(../img/banner_cursus.png);
+background-repeat: no-repeat;
+background-size: cover;
+height: 250px;
+}
+
+p {
+    text-align: justify;
 }
 /*------les blocs colores du cursus -----*/
 .grid {
@@ -522,7 +535,6 @@ footer .row {
 .grid li {
 	display: inline-block;
 	width: 350px;
-	margin: 0;
 	padding: 5px;
 	text-align: left;
 	position: relative;
@@ -555,9 +567,9 @@ footer .row {
 	color: #fff;
 }
 
-.grid figcaption span:before {
+/*.grid figcaption span:before {
 	content: '';
-}
+}*/
 
 .grid figcaption a {
     width: 70px;
@@ -584,61 +596,19 @@ footer .row {
 }
 
 
-/*.cs-style-3 figure img {
-	-webkit-transition: -webkit-transform 0.4s;
-	-moz-transition: -moz-transform 0.4s;
-	transition: transform 0.4s;
-}*/
-
-/*.no-touch .cs-style-3 figure:hover img,
-.cs-style-3 figure.cs-hover img {
-	-webkit-transform: translateY(-50px);
-	-moz-transform: translateY(-50px);
-	-ms-transform: translateY(-50px);
-	transform: translateY(-50px);
-}*/
-
-/*.cs-style-3 figcaption {
-	height: 100px;
-	width: 100%;
-	top: auto;
-	bottom: 0;
-	opacity: 0;
-	-webkit-transform: translateY(100%);
-	-moz-transform: translateY(100%);
-	-ms-transform: translateY(100%);
-	transform: translateY(100%);
-	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
-	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
-	transition: transform 0.4s, opacity 0.1s 0.3s;
-}*/
-
-/*.no-touch .cs-style-3 figure:hover figcaption,
-.cs-style-3 figure.cs-hover figcaption {
-	opacity: 1;
-	-webkit-transform: translateY(0px);
-	-moz-transform: translateY(0px);
-	-ms-transform: translateY(0px);
-	transform: translateY(0px);
-	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
-	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
-	transition: transform 0.4s, opacity 0.1s;
-}*/
-
-
-
 @media screen and (max-width: 31.5em) {
 	.grid {
-		padding: 10px 10px 100px 10px;
+		padding: 6px 0px 100px;
 	}
 	.grid li {
 		width: 100%;
 		min-width: 300px;
 	}
+
 }/*------fin blocs colores du cursus -----*/
 
 
- @media screen and (width: 320px) {
+ @media screen and (max-width: 601px) {
 .imgbody{
      display: none;
 }
@@ -654,8 +624,26 @@ footer .row {
 .imgbanner {
     display: none;
 }
- }
+p {
+    font-size: 0.9em;
+    margin-left: 3%;
+}
+h1 {
+    font-size: 2em;
+}
 
+ }
+ @media screen and (max-width: 800px) {
+
+
+     .bancursus {
+     background-image: url(../img/banner_cursus_resp.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 250px;
+     }
+
+ }
 /* #######################################################################################################
 #####################################          PAGE CONTACT           #######################################
 ####################################################################################################### */
@@ -739,6 +727,8 @@ width: 40%;
 #####################################          PAGE ADEP           #######################################
 ######################################################################################################## */
 
+
+
 /* ##########   Section principale   ########## */
 
 /* suppression des pointillés lors du clic dans toutes les pages */
@@ -779,16 +769,17 @@ a:focus{
 
 /* 3 paragraphes conditionnels */
 
-.conditions p{
-  line-height: 20px;;
-  text-align: center;
-}
-
 .conditions{
     margin-top: 40px;
     margin-bottom: 40px;
     padding: 20px 0;
 }
+
+.conditions p{
+  line-height: 20px;;
+  text-align: center;
+}
+
 
 /* logos des conditions */
 
@@ -799,12 +790,14 @@ a:focus{
 }
 
 .conditions .alignement-droite {
-  text-align: right;
+  text-align: center;
 }
 
 .conditions .alignement-gauche {
   text-align: left;
 }
+
+
 
 #lien_adep{
   margin-right: 30px;
@@ -842,7 +835,7 @@ abbr[title], abbr[data-original-title] {
 .medialab {
   color: #fff;
   background-color: rgba(227, 19, 71, 0.85);
-  margin-top: 150px;
+  margin-top: 100px;
   padding: 25px 15px 100px 15px;
   border-radius: 2px;
 }
@@ -884,7 +877,7 @@ abbr[title], abbr[data-original-title] {
 }
 
 .partenaires_adep h2{
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   font-size: 2em;
 }
 
@@ -936,7 +929,7 @@ abbr[title], abbr[data-original-title] {
 
   .img_adep{
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
   }
 
   /* 3 paragraphes conditionnels */
@@ -947,7 +940,7 @@ abbr[title], abbr[data-original-title] {
   }
 
   .conditions{
-      margin-bottom: 60px;
+      margin-bottom: 30px;
       font-size: 1.1em;
   }
 
@@ -956,7 +949,7 @@ abbr[title], abbr[data-original-title] {
   }
 
   .paragraphes{
-    margin-bottom: 120px;
+    margin-bottom: 50px;
   }
 
 /* boutons liens */

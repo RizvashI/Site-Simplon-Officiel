@@ -6,9 +6,9 @@ $(document).ready(function(){
     // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
     $('.modal-trigger').leanModal();
   });
-          
+
           $(document).scroll(function() {
-if ($(this).scrollTop() > 120){  
+if ($(this).scrollTop() > 120){
     $('.container').addClass("sticky");
   }
   else{
@@ -17,7 +17,7 @@ if ($(this).scrollTop() > 120){
 });
 
                     $(window).scroll(function() {
-if ($(this).scrollTop() > 120){  
+if ($(this).scrollTop() > 120){
     $('#ul').addClass("sticky");
   }
   else{
@@ -26,7 +26,7 @@ if ($(this).scrollTop() > 120){
 });
 
                     $(window).scroll(function() {
-if ($(this).scrollTop() > 120){  
+if ($(this).scrollTop() > 120){
     $('#logo1').addClass("sticky");
   }
   else{
@@ -35,7 +35,7 @@ if ($(this).scrollTop() > 120){
 });
 
                                         $(window).scroll(function() {
-if ($(this).scrollTop() > 120){  
+if ($(this).scrollTop() > 120){
     $('#mainmenu').addClass("sticky");
   }
   else{
@@ -44,11 +44,20 @@ if ($(this).scrollTop() > 120){
 });
 
                                         $(window).scroll(function() {
-if ($(this).scrollTop() > 120){  
+if ($(this).scrollTop() > 120){
     $('.navbar-toggle').addClass("sticky");
   }
   else{
     $('.navbar-toggle').removeClass("sticky");
   }
-});
 
+
+
+/* #######################################################################################
+############################         JS PAGE ADEP        #################################
+######################################################################################## */
+
+var conditions = document.getElementById("conditions");
+
+
+});

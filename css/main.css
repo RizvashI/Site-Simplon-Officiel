@@ -463,9 +463,10 @@ footer .row {
     margin-bottom: 10px;
 }
 
-#######################################################################################################
+/*#######################################################################################################
 #####################################          PAGE CURSUS          #######################################
 ######################################################################################################## */
+
 .containercursus {
     margin-top: 60px;
     overflow: hidden;
@@ -476,6 +477,27 @@ footer .row {
 }
 .banner {
     clear: both;
+}
+
+.headercursus{
+  margin-top: 70px;
+  clear: both;
+  background-image: url(../img/banner_cursus2.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 250px;
+}
+.headerresponsive{
+    margin-top: 70px;
+  clear: both;
+  background-image: url(../img/banner_cursus_res.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 250px;
 }
 
 .material-icons { /*------- couleurs des petites icones en debut de btn ----- */
@@ -512,12 +534,6 @@ footer .row {
 .objectif li {
     list-style-type: disc;
 
-}
-.bancursus {
-background-image: url(../img/banner_cursus.png);
-background-repeat: no-repeat;
-background-size: cover;
-height: 250px;
 }
 
 p {
@@ -567,10 +583,6 @@ p {
 	color: #fff;
 }
 
-/*.grid figcaption span:before {
-	content: '';
-}*/
-
 .grid figcaption a {
     width: 70px;
     height: 40px;
@@ -595,6 +607,13 @@ p {
 	right: 20px;
 }
 
+/*@media screen and (min-width: 1200px) {
+
+    .headercursus{
+
+      height: 300px;
+    }
+}*/
 
 @media screen and (max-width: 31.5em) {
 	.grid {
@@ -621,9 +640,6 @@ p {
 .collapsible-body p {
     font-size: 0,2em;
 }
-.imgbanner {
-    display: none;
-}
 p {
     font-size: 0.9em;
     margin-left: 3%;
@@ -632,18 +648,13 @@ h1 {
     font-size: 2em;
 }
 
- }
- @media screen and (max-width: 800px) {
+ /*@media screen and (max-width: 599px) {
 
+.headercursus {
+    display: none;
+}
+}*/
 
-     .bancursus {
-     background-image: url(../img/banner_cursus_resp.png);
-     background-repeat: no-repeat;
-     background-size: cover;
-     height: 250px;
-     }
-
- }
 /* #######################################################################################################
 #####################################          PAGE CONTACT           #######################################
 ####################################################################################################### */

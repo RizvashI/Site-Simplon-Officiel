@@ -95,7 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body{
-    background-color: #F5F5F5;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -741,6 +741,8 @@ width: 40%;
 #####################################          PAGE ADEP           #######################################
 ######################################################################################################## */
 
+
+
 /* ##########   Section principale   ########## */
 
 /* suppression des pointillés lors du clic dans toutes les pages */
@@ -781,16 +783,17 @@ a:focus{
 
 /* 3 paragraphes conditionnels */
 
-.conditions p{
-  line-height: 20px;;
-  text-align: center;
-}
-
 .conditions{
     margin-top: 40px;
     margin-bottom: 40px;
     padding: 20px 0;
 }
+
+.conditions p{
+  line-height: 20px;;
+  text-align: center;
+}
+
 
 /* logos des conditions */
 
@@ -801,12 +804,14 @@ a:focus{
 }
 
 .conditions .alignement-droite {
-  text-align: right;
+  text-align: center;
 }
 
 .conditions .alignement-gauche {
   text-align: left;
 }
+
+
 
 #lien_adep{
   margin-right: 30px;
@@ -844,7 +849,7 @@ abbr[title], abbr[data-original-title] {
 .medialab {
   color: #fff;
   background-color: rgba(227, 19, 71, 0.85);
-  margin-top: 150px;
+  margin-top: 100px;
   padding: 25px 15px 100px 15px;
   border-radius: 2px;
 }
@@ -886,7 +891,7 @@ abbr[title], abbr[data-original-title] {
 }
 
 .partenaires_adep h2{
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   font-size: 2em;
 }
 
@@ -938,7 +943,7 @@ abbr[title], abbr[data-original-title] {
 
   .img_adep{
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
   }
 
   /* 3 paragraphes conditionnels */
@@ -949,7 +954,7 @@ abbr[title], abbr[data-original-title] {
   }
 
   .conditions{
-      margin-bottom: 60px;
+      margin-bottom: 30px;
       font-size: 1.1em;
   }
 
@@ -958,7 +963,7 @@ abbr[title], abbr[data-original-title] {
   }
 
   .paragraphes{
-    margin-bottom: 120px;
+    margin-bottom: 50px;
   }
 
 /* boutons liens */

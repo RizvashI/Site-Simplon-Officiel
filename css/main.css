@@ -107,9 +107,6 @@ body{
     margin-top: -5%;
     margin-left: 15%;
 }
-.pages {
-	border-bottom: 2px solid black;
-}
 #containeracc{
     transition:all 0.9s ease;
       font-family: 'Josefin sans', serif;
@@ -160,7 +157,7 @@ nav button {
 #monmenu a:hover{
     color: grey;
     opacity: 1;
-    border-bottom: 2px solid black;
+        border-bottom: 2px solid black;
 }
 #mainmenu{
 	box-shadow: 0px 1px 5px gray;
@@ -169,6 +166,7 @@ nav button {
     opacity: 1;
 }
 #containeracc.sticky {
+   font-family: 'Josefin sans', serif;
     width: 100%;
     height: 50px;
     padding-top: 0%;
@@ -246,7 +244,7 @@ background-size: cover;
 /* ==========================================  Content  ======================================== */
 
 #contentrow {
-    font-family: 'Josefin sans', sans-serif;
+    font-family: 'Josefin sans', serif;
     margin-bottom: 5%;
 }
 #contentrow h2{
@@ -264,7 +262,7 @@ iframe {
     width: 30%;
 }
 #twitter {
-    margin-top: 3%;
+    margin-top: 7%;
 }
 #photo1 {
     width: 75%;
@@ -273,7 +271,6 @@ iframe {
     margin-top: 5%;
 }
 #texte2 {
-    margin-top: 5%;
 }
 #texte3 {
 	text-align: justify;
@@ -295,7 +292,7 @@ iframe {
 	font-size: 1.1em;
 }
 #titre1 {
-	width: 50%;
+	width: 40%;
 	padding-bottom: 7%;
     margin-top: 10%;
 }
@@ -367,7 +364,7 @@ margin-bottom: 2%;
 /* ==========================================  Footer ========================================== */
 footer{
     text-align: center;
-    background-image: url(../img/footer-bluethierry.jpg);
+    background-image: url(../img/footer-red.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -436,11 +433,11 @@ footer hr{
     margin-bottom: 1%;
 }
 footer p {
-    color: grey;
+    color: white;
     transition : all 0.3s ease;
 }
 footer p:hover {
-    color: white;
+    color: grey;
     opacity: 1;
 }
 .modal-footer p{
@@ -465,9 +462,11 @@ footer .row {
     margin-bottom: 10px;
 }
 
-/* #######################################################################################################
+
+/*#######################################################################################################
 #####################################          PAGE CURSUS          #######################################
 ######################################################################################################## */
+
 .containercursus {
     margin-top: 60px;
     overflow: hidden;
@@ -478,6 +477,27 @@ footer .row {
 }
 .banner {
     clear: both;
+}
+
+.headercursus{
+  margin-top: 70px;
+  clear: both;
+  background-image: url(../img/banner_cursus2.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 250px;
+}
+.headerresponsive{
+    margin-top: 70px;
+  clear: both;
+  background-image: url(../img/banner_cursus_res.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 250px;
 }
 
 .material-icons { /*------- couleurs des petites icones en debut de btn ----- */
@@ -514,12 +534,6 @@ footer .row {
 .objectif li {
     list-style-type: disc;
 
-}
-.bancursus {
-background-image: url(../img/banner_cursus.png);
-background-repeat: no-repeat;
-background-size: cover;
-height: 250px;
 }
 
 p {
@@ -569,10 +583,6 @@ p {
 	color: #fff;
 }
 
-/*.grid figcaption span:before {
-	content: '';
-}*/
-
 .grid figcaption a {
     width: 70px;
     height: 40px;
@@ -597,6 +607,13 @@ p {
 	right: 20px;
 }
 
+/*@media screen and (min-width: 1200px) {
+
+    .headercursus{
+
+      height: 300px;
+    }
+}*/
 
 @media screen and (max-width: 31.5em) {
 	.grid {
@@ -623,9 +640,6 @@ p {
 .collapsible-body p {
     font-size: 0,2em;
 }
-.imgbanner {
-    display: none;
-}
 p {
     font-size: 0.9em;
     margin-left: 3%;
@@ -634,18 +648,13 @@ h1 {
     font-size: 2em;
 }
 
- }
- @media screen and (max-width: 800px) {
+ /*@media screen and (max-width: 599px) {
 
+.headercursus {
+    display: none;
+}
+}*/
 
-     .bancursus {
-     background-image: url(../img/banner_cursus_resp.png);
-     background-repeat: no-repeat;
-     background-size: cover;
-     height: 250px;
-     }
-
- }
 /* #######################################################################################################
 #####################################          PAGE CONTACT           #######################################
 ####################################################################################################### */
@@ -664,7 +673,6 @@ button{
   margin-bottom: 4%;
 }
 
-<<<<<<< HEAD
 #formu{
   width: 70%;
   margin-top: 7%;

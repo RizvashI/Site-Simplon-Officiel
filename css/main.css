@@ -465,7 +465,7 @@ footer .row {
     margin-bottom: 10px;
 }
 
-#######################################################################################################
+/* #######################################################################################################
 #####################################          PAGE CURSUS          #######################################
 ######################################################################################################## */
 .containercursus {
@@ -773,14 +773,23 @@ a:focus{
 /* 3 paragraphes conditionnels */
 
 .conditions{
-    margin-top: 40px;
     margin-bottom: 40px;
     padding: 20px 0;
+}
+
+.conditions_small{
+  background-color: rgba(0,255,0,0.2);
+  padding: 20px 0;
+  border-radius: 5px;
 }
 
 .conditions p{
   line-height: 20px;;
   text-align: center;
+}
+
+.conditions_small p{
+  margin: 35px 0;
 }
 
 
@@ -834,6 +843,12 @@ abbr[title], abbr[data-original-title] {
 }
 
 /* Media Lab */
+
+.image_medialab{
+  width: 70%;
+  display: block;
+  margin: 20px auto 35px auto;
+}
 
 .medialab {
   color: #fff;
@@ -901,12 +916,12 @@ abbr[title], abbr[data-original-title] {
 /* ##########   Header   ########## */
 
 .header_adep{
-  background-image: url(../img/footer-red.jpg);
-  -webkit-background-size: cover;
+  background-color: lightgrey;
+  /*-webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
-  height: 300px;
+  -o-background-size: cover;*/
+  height: 250px;
 }
 
   /* ##########   Section principale   ########## */
@@ -932,7 +947,7 @@ abbr[title], abbr[data-original-title] {
 
   .img_adep{
     margin-top: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 150px;
   }
 
   /* 3 paragraphes conditionnels */
@@ -967,10 +982,17 @@ abbr[title], abbr[data-original-title] {
 
 /* ##########   Section MediaLab   ########## */
 
+.medialab {
+  padding: 25px 40px 80px 40px;
+}
+
   .medialab h2{
     font-size: 1.7em;
   }
 
+  .image_medialab{
+    width: 50%;
+  }
 
   .partenaires_adep img{
     padding: 8%;
@@ -1041,6 +1063,11 @@ abbr[title], abbr[data-original-title] {
 
     /* 3 paragraphes conditionnels */
 
+    .conditions{
+      border-top: 10px solid rgba(0,0,0,0.05);
+      border-bottom: 10px solid rgba(0,0,0,0.08);
+    }
+
 .conditions p{
       font-size: 1.15em;
       text-align: center;
@@ -1051,16 +1078,15 @@ abbr[title], abbr[data-original-title] {
         margin-bottom: 40px;
     }
 
+.dispositif{
+  margin-top: 40px;
+}
 
 .medialab{
   margin-top: 50px;
   padding: 20px 0 40px 0;
 }
 
-.medialab h2{
-  font-size: 1.8em;
-  margin-bottom: 60px;
-    }
 
 .medialab p{
   font-size: 1.2em;
